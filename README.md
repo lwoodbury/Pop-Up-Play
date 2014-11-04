@@ -13,10 +13,13 @@ All systems have a bank of selectable settings and media that can be linked toge
  ==========
  
  Dependencies:
+ 
  Max or Max Runtime
  OpenNI and 'jit.openNI' Max external - http://hidale.com/jit-openni/ [very simple installer for OpenNI but here: http://zigfu.com/en/downloads/browserplugin/ ]
  'changelist' Max external from Jasch objects library - http://www.jasch.ch/dl/default.htm
  'Label' and 'Lbag' Max externals from the L objects library by Peter Elsea - http://maxobjects.com/?v=libraries&id_library=29
  'OSCroute' Max external from the CNMAT library - http://cnmat.berkeley.edu/downloads
  'imp.dmx.usbpro' Max external from David Butlers imp.dmx library - http://www.theimpersonalstereo.com/software/imp-dmx
+ 
+ *[Existing folder structure for media must be kept for the software to find it and update its menus]
  
