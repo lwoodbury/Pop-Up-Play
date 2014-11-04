@@ -1,6 +1,7 @@
 Pop-Up-Play - Mixed reality digital play system - http://thesparkarts.co.uk/popupplay/
 
 Version 1 OpenNI based *[This version was built for Mac (and could be made PC compatible with some limited changes to externals) but since Apple aquired OpenNI, the user tracking module (NITE) is no longer legal to use. The next version of PUP will make use of the MS Kinect SDK and will be Windows only :(]
+
 ===========
 
 The system is comprised of 3 parts: a video system, an audio system, and a lighting system. 
