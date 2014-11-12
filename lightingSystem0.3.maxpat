@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -149,7 +149,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -527,8 +527,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 564.5, 388.0, 309.0, 20.0 ],
-					"text" : "combine filepath lightingSaves / filename .jit @triggers 3"
+					"patching_rect" : [ 564.5, 388.0, 345.0, 20.0 ],
+					"text" : "combine filepath media/lightingSaves / filename .jit @triggers 3"
 				}
 
 			}
@@ -616,7 +616,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -884,7 +884,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1230,7 +1230,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1622,7 +1622,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2160,8 +2160,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 675.5, 42.25, 193.0, 20.0 ],
-					"text" : "combine filepath lightingAmbience"
+					"patching_rect" : [ 675.5, 42.25, 229.0, 20.0 ],
+					"text" : "combine filepath media/lightingAmbience"
 				}
 
 			}
@@ -2238,7 +2238,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2542,7 +2542,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2846,7 +2846,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3150,7 +3150,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4593,7 +4593,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -6101,20 +6101,20 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-187" : [ "number[1]", "number[1]", 0 ],
-			"obj-96" : [ "slider[6]", "slider[6]", 0 ],
-			"obj-163" : [ "toggle[9]", "toggle", 0 ],
-			"obj-186" : [ "number[2]", "number[2]", 0 ],
-			"obj-188" : [ "number", "number", 0 ],
-			"obj-183" : [ "number[3]", "number[3]", 0 ],
-			"obj-157" : [ "toggle[7]", "toggle", 0 ],
 			"obj-182" : [ "number[4]", "number[4]", 0 ],
-			"obj-164" : [ "swatch", "swatch", 0 ],
-			"obj-24" : [ "toggle[10]", "toggle", 0 ],
+			"obj-143" : [ "umenu[9]", "umenu[9]", 0 ],
 			"obj-155" : [ "toggle[6]", "toggle", 0 ],
 			"obj-181" : [ "number[5]", "number[5]", 0 ],
-			"obj-143" : [ "umenu[9]", "umenu[9]", 0 ],
-			"obj-159" : [ "toggle[8]", "toggle", 0 ]
+			"obj-163" : [ "toggle[9]", "toggle", 0 ],
+			"obj-24" : [ "toggle[10]", "toggle", 0 ],
+			"obj-187" : [ "number[1]", "number[1]", 0 ],
+			"obj-188" : [ "number", "number", 0 ],
+			"obj-96" : [ "slider[6]", "slider[6]", 0 ],
+			"obj-159" : [ "toggle[8]", "toggle", 0 ],
+			"obj-186" : [ "number[2]", "number[2]", 0 ],
+			"obj-164" : [ "swatch", "swatch", 0 ],
+			"obj-157" : [ "toggle[7]", "toggle", 0 ],
+			"obj-183" : [ "number[3]", "number[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 8,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -30,6 +30,48 @@
 		"tags" : "",
 		"showontab" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 719.0, 198.0, 43.0, 20.0 ],
+					"text" : "s path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-40",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 669.0, 130.5, 34.0, 18.0 ],
+					"text" : "path"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 669.0, 161.5, 69.0, 20.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -360,7 +402,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 460.285706, 338.0, 185.0, 20.0 ],
-					"prefix" : "Macintosh HD:/Users/luke/Documents/Max-patches/PuP/FX/",
+					"prefix" : "Macintosh HD:/Users/luke/Documents/Max-patches/PuP/Pop Up Play - OpenNI/media/FX",
 					"presentation" : 1,
 					"presentation_rect" : [ 288.524719, 268.625, 145.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -452,7 +494,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -805,8 +847,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 460.285706, 293.5, 117.0, 20.0 ],
-					"text" : "combine filepath FX"
+					"patching_rect" : [ 460.285706, 293.5, 153.0, 20.0 ],
+					"text" : "combine filepath media/FX"
 				}
 
 			}
@@ -929,7 +971,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1109,7 +1151,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1378,7 +1420,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1756,7 +1798,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 311.857117, 171.0, 185.0, 20.0 ],
-					"prefix" : "Macintosh HD:/Users/luke/Documents/Max-patches/PuP/FX/",
+					"prefix" : "Macintosh HD:/Users/luke/Documents/Max-patches/PuP/Pop Up Play - OpenNI/FX",
 					"presentation" : 1,
 					"presentation_rect" : [ 69.024734, 268.625, 145.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1848,7 +1890,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2528,7 +2570,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3192,7 +3234,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3516,7 +3558,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4446,7 +4488,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 8,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4992,8 +5034,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 43.0, 273.5, 144.0, 20.0 ],
-					"text" : "combine filepath weather"
+					"patching_rect" : [ 43.0, 273.5, 180.0, 20.0 ],
+					"text" : "combine filepath media/weather"
 				}
 
 			}
@@ -5018,14 +5060,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-113",
-					"items" : [ "00.none", ",", "01.rain.aiff", ",", "02.storm.aif", ",", "03.silence.aif" ],
+					"items" : "00.none",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 43.0, 323.5, 149.0, 20.0 ],
-					"prefix" : "Macintosh HD:/Users/luke/Documents/Max-patches/PuP/weather/",
+					"prefix" : "Macintosh HD:/Users/luke/Documents/Max-patches/PuP/Pop Up Play - OpenNI/Media/weather/",
 					"presentation" : 1,
 					"presentation_rect" : [ 248.613998, 156.375, 185.821442, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -5052,8 +5094,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 29.0, 151.5, 140.0, 20.0 ],
-					"text" : "combine filepath sounds"
+					"patching_rect" : [ 29.0, 151.5, 176.0, 20.0 ],
+					"text" : "combine filepath media/sounds"
 				}
 
 			}
@@ -5092,14 +5134,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
-					"items" : [ "00none.aif", ",", "01.Aliceriverbank.aiff", ",", "02.Alice-falling.aiff", ",", "03.Alice-woodland-copy.aiff", ",", "03.Alice-woodland.aiff", ",", "04.Alice-field_ambience.aiff", ",", "04.space.aiff", ",", "05.storm.aif", ",", "05.underwater.wav", ",", "12.urban.aiff", ",", "clocknFire.wav", ",", "farmAmbience.aiff", ",", "seaside.wav", ",", "wind.aiff" ],
+					"items" : "00none.aif",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 29.0, 201.5, 167.0, 20.0 ],
-					"prefix" : "Macintosh HD:/Users/luke/Documents/Max-patches/PuP/sounds/",
+					"prefix" : "Macintosh HD:/Users/luke/Documents/Max-patches/PuP/Pop Up Play - OpenNI/Media/sounds/",
 					"presentation" : 1,
 					"presentation_rect" : [ 32.024719, 154.5, 185.821442, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -5616,6 +5658,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5763,25 +5823,25 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12" : [ "slider[3]", "slider", 0 ],
-			"obj-25" : [ "slider[6]", "slider", 0 ],
 			"obj-9" : [ "slider[5]", "slider[5]", 0 ],
-			"obj-113" : [ "umenu[7]", "umenu[7]", 0 ],
-			"obj-6" : [ "toggle[1]", "toggle", 0 ],
-			"obj-58" : [ "toggle[7]", "toggle", 0 ],
-			"obj-35" : [ "toggle[3]", "toggle", 0 ],
-			"obj-80" : [ "umenu[4]", "umenu[4]", 0 ],
-			"obj-33" : [ "toggle[2]", "toggle", 0 ],
-			"obj-82" : [ "slider", "slider", 0 ],
 			"obj-87" : [ "umenu[5]", "umenu[5]", 0 ],
-			"obj-102" : [ "slider[4]", "slider[4]", 0 ],
-			"obj-89" : [ "umenu[6]", "umenu[6]", 0 ],
-			"obj-52" : [ "toggle[6]", "toggle", 0 ],
-			"obj-13" : [ "umenu[8]", "umenu[8]", 0 ],
 			"obj-23" : [ "umenu[9]", "umenu[4]", 0 ],
+			"obj-113" : [ "umenu[7]", "umenu[7]", 0 ],
+			"obj-52" : [ "toggle[6]", "toggle", 0 ],
+			"obj-102" : [ "slider[4]", "slider[4]", 0 ],
+			"obj-80" : [ "umenu[4]", "umenu[4]", 0 ],
+			"obj-12" : [ "slider[3]", "slider", 0 ],
+			"obj-6" : [ "toggle[1]", "toggle", 0 ],
+			"obj-33" : [ "toggle[2]", "toggle", 0 ],
 			"obj-99" : [ "toggle[5]", "toggle", 0 ],
-			"obj-30" : [ "umenu[10]", "umenu[5]", 0 ],
-			"obj-100" : [ "slider[2]", "slider[2]", 0 ]
+			"obj-35" : [ "toggle[3]", "toggle", 0 ],
+			"obj-25" : [ "slider[6]", "slider", 0 ],
+			"obj-13" : [ "umenu[8]", "umenu[8]", 0 ],
+			"obj-100" : [ "slider[2]", "slider[2]", 0 ],
+			"obj-82" : [ "slider", "slider", 0 ],
+			"obj-58" : [ "toggle[7]", "toggle", 0 ],
+			"obj-89" : [ "umenu[6]", "umenu[6]", 0 ],
+			"obj-30" : [ "umenu[10]", "umenu[5]", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]
