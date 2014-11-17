@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 573.0, 172.0, 789.0, 549.0 ],
+		"rect" : [ 573.0, 172.0, 1101.0, 706.0 ],
 		"bgcolor" : [ 0.294118, 0.258824, 0.243137, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -343,7 +343,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 99.5, 58.0, 121.0, 18.0 ],
-									"text" : "3 4"
+									"text" : "1"
 								}
 
 							}
@@ -453,7 +453,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 113.0, 288.0, 137.0, 18.0 ],
-									"text" : "target 2, 4"
+									"text" : "target 1, 1"
 								}
 
 							}
@@ -901,14 +901,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-45",
-					"items" : [ "BRITE", ",", "orig" ],
+					"items" : [ "BRITE", ",", "orig", ",", "skeleton" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 205.0, 410.5, 185.0, 24.0 ],
-					"prefix" : "Macintosh HD:/Users/luke/Documents/Max-patches/PuP/PuppetTest/",
+					"prefix" : "Macintosh HD:/Users/luke/Documents/Max-patches/PuP/Pop Up Play - OpenNI/Media/puppet/",
 					"presentation" : 1,
 					"presentation_rect" : [ 218.357147, 123.802948, 175.5, 24.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1526,7 +1526,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-17",
-					"items" : [ 3, ",", 4 ],
+					"items" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5786,7 +5786,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 297.0, 304.0, 1143.0, 432.0 ],
+										"rect" : [ 274.0, 403.0, 1173.0, 651.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -5814,8 +5814,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 34.5, 275.0, 49.0, 20.0 ],
-													"text" : "* 0.172"
+													"patching_rect" : [ 34.5, 275.0, 42.0, 20.0 ],
+													"text" : "* 0.12"
 												}
 
 											}
@@ -5842,8 +5842,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 95.0, 275.0, 48.0, 20.0 ],
-													"text" : "* 0.112"
+													"patching_rect" : [ 95.0, 275.0, 35.0, 20.0 ],
+													"text" : "* 0.1"
 												}
 
 											}
@@ -6198,6 +6198,20 @@
 												}
 
 											}
+, 											{
+												"box" : 												{
+													"attr" : "scale",
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-16",
+													"maxclass" : "attrui",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 123.5, 328.0, 287.0, 20.0 ]
+												}
+
+											}
  ],
 										"lines" : [ 											{
 												"patchline" : 												{
@@ -6268,6 +6282,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-15", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-62", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-16", 0 ]
 												}
 
 											}
@@ -10499,15 +10522,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-34" : [ "flonum[6]", "flonum[6]", 0 ],
-			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
-			"obj-31" : [ "flonum[4]", "flonum[4]", 0 ],
-			"obj-56" : [ "toggle[5]", "toggle", 0 ],
-			"obj-8" : [ "flonum[3]", "flonum[3]", 0 ],
-			"obj-2" : [ "toggle[16]", "toggle", 0 ],
-			"obj-26" : [ "toggle", "toggle", 0 ],
 			"obj-45" : [ "umenu[6]", "umenu[3]", 0 ],
 			"obj-33" : [ "flonum[5]", "flonum[5]", 0 ],
+			"obj-31" : [ "flonum[4]", "flonum[4]", 0 ],
+			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
+			"obj-56" : [ "toggle[5]", "toggle", 0 ],
+			"obj-34" : [ "flonum[6]", "flonum[6]", 0 ],
+			"obj-2" : [ "toggle[16]", "toggle", 0 ],
+			"obj-26" : [ "toggle", "toggle", 0 ],
+			"obj-8" : [ "flonum[3]", "flonum[3]", 0 ],
 			"obj-15" : [ "slider", "slider", 0 ]
 		}
 ,
