@@ -1,8 +1,0 @@
-Todo:
-
-Changed Kinect patch to allow any user number
-Need to change user select umenus in alphas and puppet
-Need to change user identify in alphas and puppets
-Any other changes?
-Implications? 
-Test before Thurs!

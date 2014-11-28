@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 484.0, 288.0, 1058.0, 793.0 ],
+		"rect" : [ 350.0, 45.0, 1058.0, 793.0 ],
 		"bgcolor" : [ 0.294118, 0.258824, 0.243137, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -11735,7 +11735,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 576.0, 618.0, 53.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 538.810425, 308.25, 50.0, 20.0 ],
+					"presentation_rect" : [ 714.310425, 321.5, 50.0, 20.0 ],
 					"text" : "Enable",
 					"textjustification" : 1
 				}
@@ -11870,7 +11870,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 372.0, 374.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.524719, 133.75, 288.0, 130.5 ],
+					"presentation_rect" : [ 37.524719, 133.75, 287.5, 130.5 ],
 					"topvalue" : 0
 				}
 
@@ -11889,7 +11889,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 101.0, 706.5, 185.0, 24.0 ],
-					"prefix" : "Storage1-Lacie1:/Users/luke/Documents/Max-patches/PuP/Pop Up Play - OpenNI/Media/textures/",
+					"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI/Media/textures/",
 					"presentation" : 1,
 					"presentation_rect" : [ 499.828308, 419.0, 149.928589, 24.0 ],
 					"saved_attribute_attributes" : 					{
@@ -12678,7 +12678,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 614.0, 391.5, 61.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 365.571442, 189.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 708.310425, 195.0, 50.0, 20.0 ],
 					"text" : "Scale",
 					"textjustification" : 1
 				}
@@ -12696,7 +12696,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 534.5, 378.5, 220.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 363.571442, 111.0, 55.0, 158.25 ],
+					"presentation_rect" : [ 706.310425, 117.0, 55.0, 158.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider[11]",
@@ -15321,7 +15321,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 595.071411, 694.5, 53.928558, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 542.310425, 336.5, 43.0, 20.0 ],
+					"presentation_rect" : [ 714.310425, 361.75, 43.0, 20.0 ],
 					"text" : "Tester",
 					"textjustification" : 1
 				}
@@ -15339,7 +15339,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 576.5, 694.5, 16.5, 17.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 530.810425, 334.5, 66.0, 17.0 ],
+					"presentation_rect" : [ 702.810425, 359.75, 66.0, 17.0 ],
 					"prototypename" : "GRN_lozenge_LiveTog",
 					"rounded" : 15.0,
 					"saved_attribute_attributes" : 					{
@@ -15833,7 +15833,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 0.0, 76.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 509.060455, 206.5, 92.0, 20.0 ],
+					"presentation_rect" : [ 798.571411, 212.25, 92.0, 20.0 ],
 					"text" : "Dimensions"
 				}
 
@@ -15909,9 +15909,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 51.5, 374.0, 235.0, 28.0 ],
+					"patching_rect" : [ 51.5, 374.0, 235.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.024719, 111.0, 185.0, 28.0 ],
+					"presentation_rect" : [ 37.024719, 111.0, 185.0, 24.0 ],
 					"text" : "Webcam/Visualiser:"
 				}
 
@@ -15957,7 +15957,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 212.5, 426.0, 145.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 509.060455, 220.75, 131.464264, 24.0 ],
+					"presentation_rect" : [ 798.571411, 226.5, 131.464264, 24.0 ],
 					"prototypename" : "green-umenu",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -15986,7 +15986,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 212.5, 493.0, 52.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 509.060455, 244.25, 92.0, 18.0 ],
+					"presentation_rect" : [ 798.571411, 250.0, 92.0, 18.0 ],
 					"prototypename" : "green-message",
 					"text" : "settings",
 					"textjustification" : 1
@@ -17048,7 +17048,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 122.0, 622.5, 61.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 365.571442, 375.5, 50.0, 20.0 ],
+					"presentation_rect" : [ 800.571411, 395.75, 50.0, 20.0 ],
 					"text" : "Scale",
 					"textjustification" : 1
 				}
@@ -17066,7 +17066,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 42.5, 609.5, 220.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 363.571442, 299.25, 55.0, 158.25 ],
+					"presentation_rect" : [ 798.571411, 319.5, 55.0, 158.25 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider[3]",
@@ -17119,6 +17119,46 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-87",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 463.0, 43.0, 72.0, 20.0 ],
+									"text" : "loadmess 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-86",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 463.0, 75.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-84",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 433.0, 102.0, 175.0, 18.0 ],
+									"text" : "output_skeleton_orientation $1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -32554,6 +32594,33 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-84", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-84", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-86", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-86", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-87", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -32617,7 +32684,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 558.625, 618.0, 16.5, 17.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 530.810425, 306.25, 66.0, 17.0 ],
+					"presentation_rect" : [ 706.310425, 319.5, 66.0, 17.0 ],
 					"prototypename" : "GRN_lozenge_LiveTog",
 					"rounded" : 15.0,
 					"saved_attribute_attributes" : 					{
@@ -34349,7 +34416,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 620.0, 218.0, 185.0, 24.0 ],
-					"prefix" : "Storage1-Lacie1:/Users/luke/Documents/Max-patches/PuP/Pop Up Play - OpenNI/Media/weather/",
+					"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI/Media/weather/",
 					"presentation" : 1,
 					"presentation_rect" : [ 460.571442, 64.25, 175.5, 24.0 ],
 					"saved_attribute_attributes" : 					{
@@ -34416,14 +34483,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-29",
-					"items" : [ "00.none.jpg", ",", "BournemouthBeach.jpg" ],
+					"items" : [ "00.none.jpg", ",", "BournemouthBeach.jpg", ",", "README.rtf" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 56.5, 219.5, 185.0, 24.0 ],
-					"prefix" : "Storage1-Lacie1:/Users/luke/Documents/Max-patches/PuP/Pop Up Play - OpenNI/Media/visuals/",
+					"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI/Media/visuals/",
 					"presentation" : 1,
 					"presentation_rect" : [ 270.571442, 64.25, 175.5, 24.0 ],
 					"saved_attribute_attributes" : 					{
@@ -35401,67 +35468,67 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-41" : [ "umenu", "umenu", 0 ],
-			"obj-117" : [ "toggle[17]", "toggle[17]", 0 ],
-			"obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
-			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ],
-			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
-			"obj-202" : [ "toggle[12]", "toggle", 0 ],
-			"obj-86" : [ "toggle[4]", "toggle", 0 ],
-			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
-			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
-			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
-			"obj-32" : [ "toggle[1]", "toggle", 0 ],
-			"obj-81" : [ "flonum", "flonum", 0 ],
-			"obj-49" : [ "toggle[2]", "toggle", 0 ],
-			"obj-31" : [ "toggle[3]", "toggle", 0 ],
-			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
-			"obj-132" : [ "toggle[15]", "toggle", 0 ],
 			"obj-106" : [ "toggle[16]", "toggle", 0 ],
+			"obj-117" : [ "toggle[17]", "toggle[17]", 0 ],
+			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ],
+			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
+			"obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-86" : [ "toggle[4]", "toggle", 0 ],
+			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
+			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
 			"obj-63" : [ "toggle[6]", "toggle", 0 ],
+			"obj-202" : [ "toggle[12]", "toggle", 0 ],
+			"obj-49" : [ "toggle[2]", "toggle", 0 ],
+			"obj-32" : [ "toggle[1]", "toggle", 0 ],
+			"obj-132" : [ "toggle[15]", "toggle", 0 ],
 			"obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ]
+			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
+			"obj-81" : [ "flonum", "flonum", 0 ],
+			"obj-41" : [ "umenu", "umenu", 0 ],
+			"obj-31" : [ "toggle[3]", "toggle", 0 ],
+			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.centroid.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.touch.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.centroid.js",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.pinch.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.rotate.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

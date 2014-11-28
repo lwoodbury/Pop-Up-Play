@@ -8,9 +8,9 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 889.0, 138.0, 768.0, 615.0 ],
+		"rect" : [ 288.0, 128.0, 1097.0, 665.0 ],
 		"bgcolor" : [ 0.294118, 0.258824, 0.243137, 1.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -3198,7 +3198,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 703.071411, 531.0, 60.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 79.953308, 484.287476, 75.0, 20.0 ],
+					"presentation_rect" : [ 818.953308, 491.287476, 75.0, 20.0 ],
 					"text" : "Scale",
 					"textjustification" : 1
 				}
@@ -3216,7 +3216,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 672.571411, 531.0, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.928589, 477.287476, 188.821411, 24.871063 ],
+					"presentation_rect" : [ 765.928589, 484.287476, 188.821411, 24.871063 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider[6]",
@@ -5003,7 +5003,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.071411, 531.0, 60.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.042603, 357.079529, 75.0, 20.0 ],
+					"presentation_rect" : [ 824.042603, 364.079529, 75.0, 20.0 ],
 					"text" : "Scale",
 					"textjustification" : 1
 				}
@@ -5021,7 +5021,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 459.571411, 531.0, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.131897, 350.643982, 188.821411, 24.871063 ],
+					"presentation_rect" : [ 767.131897, 357.643982, 188.821411, 24.871063 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider[5]",
@@ -6840,7 +6840,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 277.071411, 531.0, 60.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.042603, 227.128937, 75.0, 20.0 ],
+					"presentation_rect" : [ 824.042603, 234.128937, 75.0, 20.0 ],
 					"text" : "Scale",
 					"textjustification" : 1
 				}
@@ -6858,7 +6858,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 246.571411, 531.0, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.131897, 221.128937, 188.821411, 24.871063 ],
+					"presentation_rect" : [ 767.131897, 228.128937, 188.821411, 24.871063 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider[4]",
@@ -8373,7 +8373,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 64.071411, 531.0, 60.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.042603, 101.250015, 75.0, 20.0 ],
+					"presentation_rect" : [ 824.042603, 108.250015, 75.0, 20.0 ],
 					"text" : "Scale",
 					"textjustification" : 1
 				}
@@ -8391,7 +8391,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 33.571411, 531.0, 104.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.131897, 95.250015, 188.821411, 24.871063 ],
+					"presentation_rect" : [ 767.131897, 102.250015, 188.821411, 24.871063 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "slider[8]",
@@ -8974,21 +8974,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.501961, 0.501961, 0.501961, 0.59 ],
-					"border" : 3,
-					"id" : "obj-103",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 646.5, 68.0, 206.421875, 539.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 17.428589, 393.5, 501.825592, 115.5 ],
-					"rounded" : 30
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"background" : 1,
 					"id" : "obj-55",
 					"maxclass" : "panel",
@@ -9012,6 +8997,22 @@
 					"patching_rect" : [ 891.0, 88.0, 206.421875, 182.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 527.798096, 156.234573, 193.09613, 190.462494 ],
+					"rounded" : 30
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.501961, 0.501961, 0.501961, 0.59 ],
+					"border" : 3,
+					"id" : "obj-103",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 646.5, 68.0, 206.421875, 539.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 17.428589, 393.5, 501.825592, 115.5 ],
 					"rounded" : 30
 				}
 
@@ -10245,46 +10246,46 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7" : [ "umenu[10]", "umenu[2]", 0 ],
-			"obj-160" : [ "slider[5]", "slider[2]", 0 ],
-			"obj-49" : [ "slider[4]", "slider[2]", 0 ],
-			"obj-71" : [ "toggle[1]", "toggle", 0 ],
-			"obj-102" : [ "umenu[16]", "umenu[13]", 0 ],
-			"obj-30" : [ "toggle[9]", "toggle", 0 ],
-			"obj-61" : [ "umenu[6]", "umenu[13]", 0 ],
-			"obj-26" : [ "slider[8]", "slider[2]", 0 ],
-			"obj-144" : [ "toggle[19]", "toggle", 0 ],
-			"obj-33" : [ "toggle[10]", "toggle", 0 ],
-			"obj-50" : [ "umenu[13]", "umenu[13]", 0 ],
-			"obj-112" : [ "toggle[18]", "toggle", 0 ],
-			"obj-18" : [ "toggle[16]", "toggle", 0 ],
-			"obj-58" : [ "umenu[14]", "umenu[2]", 0 ],
-			"obj-66" : [ "umenu[11]", "umenu[13]", 0 ],
-			"obj-163" : [ "umenu[8]", "umenu[2]", 0 ],
-			"obj-12" : [ "toggle[5]", "toggle", 0 ],
-			"obj-117" : [ "flonum[1]", "flonum", 0 ],
-			"obj-100" : [ "umenu[15]", "umenu[2]", 0 ],
-			"obj-165" : [ "umenu[9]", "umenu[13]", 0 ],
-			"obj-76" : [ "toggle[21]", "toggle", 0 ],
-			"obj-141" : [ "umenu[7]", "umenu[13]", 0 ],
-			"obj-116" : [ "flonum", "flonum", 0 ],
-			"obj-147" : [ "toggle[20]", "toggle", 0 ],
-			"obj-56" : [ "toggle[17]", "toggle", 0 ],
-			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
 			"obj-97" : [ "slider[6]", "slider[2]", 0 ],
-			"obj-24" : [ "umenu[5]", "umenu[13]", 0 ]
+			"obj-26" : [ "slider[8]", "slider[2]", 0 ],
+			"obj-117" : [ "flonum[1]", "flonum", 0 ],
+			"obj-141" : [ "umenu[7]", "umenu[13]", 0 ],
+			"obj-144" : [ "toggle[19]", "toggle", 0 ],
+			"obj-147" : [ "toggle[20]", "toggle", 0 ],
+			"obj-100" : [ "umenu[15]", "umenu[2]", 0 ],
+			"obj-30" : [ "toggle[9]", "toggle", 0 ],
+			"obj-7" : [ "umenu[10]", "umenu[2]", 0 ],
+			"obj-33" : [ "toggle[10]", "toggle", 0 ],
+			"obj-49" : [ "slider[4]", "slider[2]", 0 ],
+			"obj-61" : [ "umenu[6]", "umenu[13]", 0 ],
+			"obj-112" : [ "toggle[18]", "toggle", 0 ],
+			"obj-160" : [ "slider[5]", "slider[2]", 0 ],
+			"obj-66" : [ "umenu[11]", "umenu[13]", 0 ],
+			"obj-12" : [ "toggle[5]", "toggle", 0 ],
+			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
+			"obj-50" : [ "umenu[13]", "umenu[13]", 0 ],
+			"obj-24" : [ "umenu[5]", "umenu[13]", 0 ],
+			"obj-76" : [ "toggle[21]", "toggle", 0 ],
+			"obj-116" : [ "flonum", "flonum", 0 ],
+			"obj-102" : [ "umenu[16]", "umenu[13]", 0 ],
+			"obj-56" : [ "toggle[17]", "toggle", 0 ],
+			"obj-165" : [ "umenu[9]", "umenu[13]", 0 ],
+			"obj-18" : [ "toggle[16]", "toggle", 0 ],
+			"obj-163" : [ "umenu[8]", "umenu[2]", 0 ],
+			"obj-58" : [ "umenu[14]", "umenu[2]", 0 ],
+			"obj-71" : [ "toggle[1]", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "alphaTrack.maxpat",
-				"bootpath" : "/Users/luke/Documents/Max-patches/PuP/Pop Up Play - OpenNI",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "visrPoly.maxpat",
-				"bootpath" : "/Users/luke/Documents/Max-patches/PuP/Pop Up Play - OpenNI",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -10292,35 +10293,35 @@
 , 			{
 				"name" : "mira.mt.centroid.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.touch.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.centroid.js",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.pinch.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.rotate.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
