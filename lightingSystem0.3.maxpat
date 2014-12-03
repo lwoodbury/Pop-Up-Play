@@ -10,7 +10,7 @@
 ,
 		"rect" : [ 263.0, 126.0, 683.0, 534.0 ],
 		"bgcolor" : [ 0.294118, 0.258824, 0.243137, 1.0 ],
-		"bglocked" : 1,
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -5308,7 +5308,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -0.471466, -0.495331, 684.635193, 486.732819 ],
 					"tabname" : "Lighting System",
-					"taborder" : 3
+					"taborder" : 5
 				}
 
 			}
@@ -6272,21 +6272,21 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-96" : [ "slider[6]", "slider[6]", 0 ],
-			"obj-143" : [ "umenu[9]", "umenu[9]", 0 ],
-			"obj-106" : [ "toggle[16]", "toggle", 0 ],
-			"obj-181" : [ "number[5]", "number[5]", 0 ],
-			"obj-159" : [ "toggle[8]", "toggle", 0 ],
-			"obj-163" : [ "toggle[9]", "toggle", 0 ],
-			"obj-187" : [ "number[1]", "number[1]", 0 ],
-			"obj-24" : [ "toggle[10]", "toggle", 0 ],
-			"obj-186" : [ "number[2]", "number[2]", 0 ],
-			"obj-164" : [ "swatch", "swatch", 0 ],
-			"obj-188" : [ "number", "number", 0 ],
 			"obj-155" : [ "toggle[6]", "toggle", 0 ],
+			"obj-163" : [ "toggle[9]", "toggle", 0 ],
+			"obj-182" : [ "number[4]", "number[4]", 0 ],
+			"obj-24" : [ "toggle[10]", "toggle", 0 ],
+			"obj-143" : [ "umenu[9]", "umenu[9]", 0 ],
+			"obj-181" : [ "number[5]", "number[5]", 0 ],
+			"obj-187" : [ "number[1]", "number[1]", 0 ],
+			"obj-96" : [ "slider[6]", "slider[6]", 0 ],
 			"obj-157" : [ "toggle[7]", "toggle", 0 ],
+			"obj-188" : [ "number", "number", 0 ],
+			"obj-186" : [ "number[2]", "number[2]", 0 ],
 			"obj-183" : [ "number[3]", "number[3]", 0 ],
-			"obj-182" : [ "number[4]", "number[4]", 0 ]
+			"obj-159" : [ "toggle[8]", "toggle", 0 ],
+			"obj-164" : [ "swatch", "swatch", 0 ],
+			"obj-106" : [ "toggle[16]", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

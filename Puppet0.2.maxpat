@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 589.0, 236.0, 1208.0, 788.0 ],
+		"rect" : [ 232.0, 236.0, 1208.0, 788.0 ],
 		"bgcolor" : [ 0.294118, 0.258824, 0.243137, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -5262,7 +5262,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 525.5, 30.0, 150.0, 20.0 ],
-													"presentation_rect" : [ 521.5, 28.0, 0.0, 0.0 ],
 													"text" : "hip"
 												}
 
@@ -16278,7 +16277,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -0.067596, 0.0, 684.635193, 486.732819 ],
 					"tabname" : "Puppet Controls",
-					"taborder" : 1
+					"taborder" : 3
 				}
 
 			}
@@ -16954,22 +16953,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2" : [ "toggle[16]", "toggle", 0 ],
+			"obj-34" : [ "flonum[6]", "flonum[6]", 0 ],
+			"obj-106" : [ "toggle[1]", "toggle", 0 ],
+			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
+			"obj-90" : [ "toggle[2]", "toggle[2]", 0 ],
+			"obj-66" : [ "flonum[8]", "flonum[8]", 0 ],
 			"obj-56" : [ "toggle[5]", "toggle", 0 ],
 			"obj-86" : [ "flonum[7]", "flonum[7]", 0 ],
-			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
-			"obj-45" : [ "umenu[6]", "umenu[3]", 0 ],
 			"obj-8" : [ "flonum[3]", "flonum[3]", 0 ],
-			"obj-90" : [ "toggle[2]", "toggle[2]", 0 ],
-			"obj-106" : [ "toggle[1]", "toggle", 0 ],
 			"obj-26" : [ "toggle", "toggle", 0 ],
 			"obj-87" : [ "number", "number", 0 ],
+			"obj-45" : [ "umenu[6]", "umenu[3]", 0 ],
+			"obj-33" : [ "flonum[5]", "flonum[5]", 0 ],
 			"obj-31" : [ "flonum[4]", "flonum[4]", 0 ],
 			"obj-65" : [ "slider[3]", "slider[2]", 0 ],
-			"obj-66" : [ "flonum[8]", "flonum[8]", 0 ],
 			"obj-15" : [ "slider", "slider", 0 ],
-			"obj-34" : [ "flonum[6]", "flonum[6]", 0 ],
-			"obj-33" : [ "flonum[5]", "flonum[5]", 0 ]
+			"obj-2" : [ "toggle[16]", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

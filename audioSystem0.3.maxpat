@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 460.0, 183.0, 1096.0, 789.0 ],
+		"rect" : [ 344.0, 183.0, 1096.0, 789.0 ],
 		"bgcolor" : [ 0.294118, 0.258824, 0.243137, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -5324,7 +5324,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -0.471466, -0.495331, 684.635193, 486.732819 ],
 					"tabname" : "Audio System",
-					"taborder" : 2
+					"taborder" : 4
 				}
 
 			}
@@ -5934,26 +5934,26 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-25" : [ "slider[6]", "slider", 0 ],
-			"obj-23" : [ "umenu[9]", "umenu[4]", 0 ],
-			"obj-59" : [ "toggle[16]", "toggle", 0 ],
-			"obj-12" : [ "slider[3]", "slider", 0 ],
-			"obj-6" : [ "toggle[1]", "toggle", 0 ],
-			"obj-100" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-80" : [ "umenu[4]", "umenu[4]", 0 ],
-			"obj-113" : [ "umenu[7]", "umenu[7]", 0 ],
-			"obj-9" : [ "slider[5]", "slider[5]", 0 ],
-			"obj-35" : [ "toggle[3]", "toggle", 0 ],
-			"obj-33" : [ "toggle[2]", "toggle", 0 ],
-			"obj-102" : [ "slider[4]", "slider[4]", 0 ],
 			"obj-52" : [ "toggle[6]", "toggle", 0 ],
+			"obj-13" : [ "umenu[8]", "umenu[8]", 0 ],
 			"obj-30" : [ "umenu[10]", "umenu[5]", 0 ],
+			"obj-100" : [ "slider[2]", "slider[2]", 0 ],
+			"obj-6" : [ "toggle[1]", "toggle", 0 ],
+			"obj-35" : [ "toggle[3]", "toggle", 0 ],
+			"obj-23" : [ "umenu[9]", "umenu[4]", 0 ],
+			"obj-80" : [ "umenu[4]", "umenu[4]", 0 ],
+			"obj-33" : [ "toggle[2]", "toggle", 0 ],
+			"obj-9" : [ "slider[5]", "slider[5]", 0 ],
+			"obj-87" : [ "umenu[5]", "umenu[5]", 0 ],
+			"obj-99" : [ "toggle[5]", "toggle", 0 ],
+			"obj-102" : [ "slider[4]", "slider[4]", 0 ],
+			"obj-113" : [ "umenu[7]", "umenu[7]", 0 ],
+			"obj-25" : [ "slider[6]", "slider", 0 ],
 			"obj-58" : [ "toggle[7]", "toggle", 0 ],
 			"obj-89" : [ "umenu[6]", "umenu[6]", 0 ],
-			"obj-99" : [ "toggle[5]", "toggle", 0 ],
-			"obj-87" : [ "umenu[5]", "umenu[5]", 0 ],
-			"obj-82" : [ "slider", "slider", 0 ],
-			"obj-13" : [ "umenu[8]", "umenu[8]", 0 ]
+			"obj-12" : [ "slider[3]", "slider", 0 ],
+			"obj-59" : [ "toggle[16]", "toggle", 0 ],
+			"obj-82" : [ "slider", "slider", 0 ]
 		}
 ,
 		"dependency_cache" : [  ]

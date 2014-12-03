@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 582.0, 231.0, 842.0, 612.0 ],
+		"rect" : [ 293.0, 389.0, 842.0, 612.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,13 +31,84 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-42",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 606.0, 66.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 605.0, 69.0, 0.0, 0.0 ],
+					"text" : "30   360           190    360"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 606.0, 38.0, 150.0, 20.0 ],
+					"text" : "30    230        190    230"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-39",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 543.0, 38.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-37",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 488.0, 38.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 488.0, 66.0, 42.0, 20.0 ],
+					"text" : "pak i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 44.0, 575.0, 139.0, 18.0 ],
-					"text" : "script bringtofront visr32"
+					"text" : "script bringtofront visr1"
 				}
 
 			}
@@ -101,7 +172,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 60.0, 376.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -158,7 +229,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 172.0, 139.0, 116.0, 20.0 ],
-									"text" : "scale -1. 1. 187 315"
+									"text" : "scale -1. 1. 230 360"
 								}
 
 							}
@@ -171,8 +242,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 139.0, 116.0, 20.0 ],
-									"text" : "scale -1. 1. 535 694"
+									"patching_rect" : [ 50.0, 139.0, 109.0, 20.0 ],
+									"text" : "scale -1. 1. 30 190"
 								}
 
 							}
@@ -285,7 +356,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 527.0, 183.0, 18.0 ],
-					"text" : "script send visr2 presentation $1"
+					"text" : "script send visr1 presentation $1"
 				}
 
 			}
@@ -313,8 +384,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 78.5, 425.0, 247.0, 31.0 ],
-					"text" : "script send visr32 presentation_position $1 $2"
+					"patching_rect" : [ 78.5, 425.0, 245.0, 31.0 ],
+					"text" : "script send visr1 presentation_position $1 $2"
 				}
 
 			}
@@ -400,6 +471,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 173.0, 155.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -456,8 +531,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 548.0, 425.0, 104.0, 31.0 ],
-					"text" : "script delete visr32"
+					"patching_rect" : [ 548.0, 425.0, 100.0, 31.0 ],
+					"text" : "script delete visr1"
 				}
 
 			}
@@ -486,7 +561,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 324.5, 451.0, 207.0, 45.0 ],
-					"text" : "script newobject message @varname visr32, script size visr32 18 18, script send visr32 set 32"
+					"text" : "script newobject message @varname visr1, script size visr1 18 18, script send visr1 set 1"
 				}
 
 			}
@@ -639,7 +714,7 @@
 					"destination" : [ "obj-25", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 334.0, 369.75, 316.0, 369.75 ],
+					"midpoints" : [ 334.0, 369.75, 314.0, 369.75 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -649,7 +724,7 @@
 					"destination" : [ "obj-60", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 666.0, 401.25, 642.5, 401.25 ],
+					"midpoints" : [ 666.0, 401.25, 638.5, 401.25 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -833,6 +908,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -895,8 +997,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }
