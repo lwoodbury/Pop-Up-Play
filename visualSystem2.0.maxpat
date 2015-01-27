@@ -8294,7 +8294,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 24.0, 486.0, 640.0, 480.0 ],
+										"rect" : [ 115.0, 287.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -8739,8 +8739,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 39.0, 224.0, 113.0, 20.0 ],
-													"text" : "jit.qt.grab 1024 768"
+													"patching_rect" : [ 39.0, 224.0, 100.0, 20.0 ],
+													"text" : "jit.grab 1024 768"
 												}
 
 											}
@@ -8854,7 +8854,7 @@
 													"destination" : [ "obj-14", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 142.5, 253.0, 152.5, 253.0 ],
+													"midpoints" : [ 129.5, 253.0, 152.5, 253.0 ],
 													"source" : [ "obj-15", 1 ]
 												}
 
@@ -23870,35 +23870,35 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-210" : [ "toggle[23]", "toggle", 0 ],
-			"obj-200::obj-29" : [ "umenu[7]", "umenu[3]", 0 ],
-			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
-			"obj-32" : [ "toggle[1]", "toggle", 0 ],
-			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
-			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
-			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
-			"obj-216" : [ "toggle[24]", "toggle", 0 ],
-			"obj-200::obj-136" : [ "toggle[22]", "toggle[8]", 0 ],
-			"obj-200::obj-202" : [ "toggle[27]", "toggle", 0 ],
-			"obj-88::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
-			"obj-86" : [ "toggle[4]", "toggle", 0 ],
-			"obj-202" : [ "toggle[12]", "toggle", 0 ],
-			"obj-106" : [ "toggle[16]", "toggle", 0 ],
-			"obj-88::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-31" : [ "toggle[3]", "toggle", 0 ],
-			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ],
-			"obj-49" : [ "toggle[2]", "toggle", 0 ],
-			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
 			"obj-41" : [ "umenu", "umenu", 0 ],
-			"obj-88::obj-81" : [ "flonum", "flonum", 0 ],
-			"obj-63" : [ "toggle[6]", "toggle", 0 ],
-			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ],
-			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
-			"obj-132" : [ "toggle[15]", "toggle", 0 ],
+			"obj-106" : [ "toggle[16]", "toggle", 0 ],
 			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
+			"obj-63" : [ "toggle[6]", "toggle", 0 ],
+			"obj-202" : [ "toggle[12]", "toggle", 0 ],
+			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
+			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ],
+			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ],
+			"obj-132" : [ "toggle[15]", "toggle", 0 ],
+			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
+			"obj-210" : [ "toggle[23]", "toggle", 0 ],
+			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
+			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ],
+			"obj-200::obj-29" : [ "umenu[7]", "umenu[3]", 0 ],
 			"obj-200::obj-132" : [ "toggle[25]", "toggle", 0 ],
 			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ],
-			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ]
+			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
+			"obj-216" : [ "toggle[24]", "toggle", 0 ],
+			"obj-31" : [ "toggle[3]", "toggle", 0 ],
+			"obj-49" : [ "toggle[2]", "toggle", 0 ],
+			"obj-88::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-32" : [ "toggle[1]", "toggle", 0 ],
+			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-88::obj-81" : [ "flonum", "flonum", 0 ],
+			"obj-200::obj-136" : [ "toggle[22]", "toggle[8]", 0 ],
+			"obj-88::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-200::obj-202" : [ "toggle[27]", "toggle", 0 ],
+			"obj-86" : [ "toggle[4]", "toggle", 0 ],
+			"obj-20" : [ "slider[3]", "slider[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -24008,22 +24008,6 @@
 			}
 , 			{
 				"name" : "jit.openni.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "Lbag.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "changelist.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "Label.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
  ]
