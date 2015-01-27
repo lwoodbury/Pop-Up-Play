@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 394.0, 227.0, 622.0, 628.0 ],
+		"rect" : [ 346.0, 45.0, 962.0, 793.0 ],
 		"bgcolor" : [ 0.294118, 0.258824, 0.243137, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -30,6 +30,178 @@
 		"tags" : "",
 		"showontab" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-102",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 786.0, 522.5, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 386.430298, 544.25, 150.0, 20.0 ],
+					"text" : "Which Kinect system?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 803.0, 605.0, 34.0, 20.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 700.339355, 605.0, 34.0, 20.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 786.0, 575.5, 36.0, 20.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-60",
+					"items" : [ "dp.kinect", ",", "jit.openni" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 786.0, 549.25, 83.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 386.430298, 564.25, 83.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-119",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 861.0, 686.5, 139.0, 18.0 ],
+					"text" : "kinectGutsOpenNI_ABS"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-111",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 733.0, 686.5, 116.0, 18.0 ],
+					"text" : "kinectGutsMS_ABS"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-91",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 733.0, 725.0, 560.0, 18.0 ],
+					"text" : "script newobject newobj @text $1 @varname kinectGuts @patching_position 505.857178 792. 114. 20."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-59",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 694.857178, 649.0, 135.0, 18.0 ],
+					"text" : "script delete kinectGuts"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 589.232178, 765.0, 42.0, 20.0 ],
+					"text" : "s kin2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 505.857178, 763.5, 42.0, 20.0 ],
+					"text" : "s kin1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 694.857178, 761.5, 69.0, 20.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"autofit" : 1,
 					"id" : "obj-48",
@@ -854,19 +1026,6 @@
 					}
 ,
 					"varname" : "toggle[9]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-205",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 505.857178, 773.5, 139.0, 20.0 ],
-					"text" : "kinectGutsOpenNI_ABS"
 				}
 
 			}
@@ -3039,7 +3198,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 56.75, 469.75, 185.0, 24.0 ],
-									"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI/Media/textures/",
+									"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play/Media/textures/",
 									"presentation" : 1,
 									"presentation_rect" : [ 65.024719, 251.116333, 149.928589, 24.0 ],
 									"rounded" : 15,
@@ -3344,7 +3503,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 267.035767, 130.5, 185.0, 24.0 ],
-									"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI/Media/weather/",
+									"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play/Media/weather/",
 									"presentation" : 1,
 									"presentation_rect" : [ 476.963196, 67.504669, 175.5, 24.0 ],
 									"saved_attribute_attributes" : 									{
@@ -3378,7 +3537,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 1,
 									"patching_rect" : [ 30.357178, 130.5, 185.0, 24.0 ],
-									"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI/Media/visuals/",
+									"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play/Media/visuals/",
 									"presentation" : 1,
 									"presentation_rect" : [ 171.188477, 67.504669, 239.0, 24.0 ],
 									"saved_attribute_attributes" : 									{
@@ -6301,7 +6460,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -20442,7 +20601,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 168.857178, 733.5, 185.0, 20.0 ],
-					"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI/Media/textures/",
+					"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play/Media/textures/",
 					"presentation" : 1,
 					"presentation_rect" : [ 38.0, 286.116333, 149.928589, 20.0 ],
 					"rounded" : 15,
@@ -22783,7 +22942,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 292.035767, 216.5, 185.0, 20.0 ],
-					"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI/Media/weather/",
+					"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play/Media/weather/",
 					"presentation" : 1,
 					"presentation_rect" : [ 360.00116, 109.746086, 172.5, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -22817,7 +22976,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 55.357178, 216.5, 185.0, 20.0 ],
-					"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI/Media/visuals/",
+					"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play/Media/visuals/",
 					"presentation" : 1,
 					"presentation_rect" : [ 332.667542, 73.746086, 175.5, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -22915,6 +23074,20 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-88",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 505.857178, 792.0, 138.0, 20.0 ],
+					"text" : "kinectGutsOpenNI_ABS",
+					"varname" : "kinectGuts"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -22955,10 +23128,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-111", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-119", 0 ]
 				}
 
 			}
@@ -22982,7 +23173,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-205", 1 ],
+					"destination" : [ "obj-68", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-125", 0 ]
@@ -23400,6 +23591,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-202", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -23409,7 +23618,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-205", 0 ],
+					"destination" : [ "obj-67", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-62", 1 ]
@@ -23490,6 +23699,60 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-78", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-111", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-80", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-81", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-133", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -23553,6 +23816,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-94", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -23598,38 +23870,52 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-202" : [ "toggle[12]", "toggle", 0 ],
 			"obj-210" : [ "toggle[23]", "toggle", 0 ],
 			"obj-200::obj-29" : [ "umenu[7]", "umenu[3]", 0 ],
+			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
+			"obj-32" : [ "toggle[1]", "toggle", 0 ],
+			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
+			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
+			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-216" : [ "toggle[24]", "toggle", 0 ],
 			"obj-200::obj-136" : [ "toggle[22]", "toggle[8]", 0 ],
 			"obj-200::obj-202" : [ "toggle[27]", "toggle", 0 ],
+			"obj-88::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
 			"obj-86" : [ "toggle[4]", "toggle", 0 ],
+			"obj-202" : [ "toggle[12]", "toggle", 0 ],
 			"obj-106" : [ "toggle[16]", "toggle", 0 ],
-			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
-			"obj-41" : [ "umenu", "umenu", 0 ],
-			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
+			"obj-88::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-31" : [ "toggle[3]", "toggle", 0 ],
-			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
 			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ],
-			"obj-216" : [ "toggle[24]", "toggle", 0 ],
-			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
 			"obj-49" : [ "toggle[2]", "toggle", 0 ],
-			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
-			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
-			"obj-132" : [ "toggle[15]", "toggle", 0 ],
+			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
+			"obj-41" : [ "umenu", "umenu", 0 ],
+			"obj-88::obj-81" : [ "flonum", "flonum", 0 ],
 			"obj-63" : [ "toggle[6]", "toggle", 0 ],
-			"obj-200::obj-132" : [ "toggle[25]", "toggle", 0 ],
-			"obj-205::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
-			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ],
-			"obj-205::obj-81" : [ "flonum", "flonum", 0 ],
 			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ],
-			"obj-32" : [ "toggle[1]", "toggle", 0 ],
-			"obj-205::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
+			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
+			"obj-132" : [ "toggle[15]", "toggle", 0 ],
+			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
+			"obj-200::obj-132" : [ "toggle[25]", "toggle", 0 ],
+			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ],
 			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "kinectGutsOpenNI_ABS.maxpat",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.gl.slab.gauss6x.maxpat",
+				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "mira.mt.centroid.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
 				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
@@ -23718,20 +24004,6 @@
 				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kinectGutsOpenNI_ABS.maxpat",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/jitter-examples/render/slab",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
