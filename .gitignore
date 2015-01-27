@@ -1,13 +1,13 @@
 #Images
 #########
-*.jpg
-*.png
+#*.jpg
+#*.png
 
 #Sounds
 ########
-*.aiff
-*.aif
-*.wav
+#*.aiff
+#*.aif
+#*.wav
 
 #Movs
 ########
