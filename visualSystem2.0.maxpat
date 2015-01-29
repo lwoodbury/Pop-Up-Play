@@ -23082,8 +23082,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.857178, 792.0, 138.0, 20.0 ],
-					"text" : "kinectGutsOpenNI_ABS",
+					"patching_rect" : [ 505.857178, 792.0, 116.0, 20.0 ],
+					"text" : "kinectGutsMS_ABS",
 					"varname" : "kinectGuts"
 				}
 
@@ -23870,39 +23870,39 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-41" : [ "umenu", "umenu", 0 ],
-			"obj-106" : [ "toggle[16]", "toggle", 0 ],
 			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
+			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-86" : [ "toggle[4]", "toggle", 0 ],
+			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
+			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
 			"obj-63" : [ "toggle[6]", "toggle", 0 ],
-			"obj-202" : [ "toggle[12]", "toggle", 0 ],
-			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
+			"obj-88::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-200::obj-136" : [ "toggle[22]", "toggle[8]", 0 ],
+			"obj-200::obj-202" : [ "toggle[27]", "toggle", 0 ],
+			"obj-200::obj-29" : [ "umenu[7]", "umenu[3]", 0 ],
 			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ],
-			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ],
+			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ],
+			"obj-106" : [ "toggle[16]", "toggle", 0 ],
+			"obj-202" : [ "toggle[12]", "toggle", 0 ],
 			"obj-132" : [ "toggle[15]", "toggle", 0 ],
+			"obj-88::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
 			"obj-210" : [ "toggle[23]", "toggle", 0 ],
-			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
-			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ],
-			"obj-200::obj-29" : [ "umenu[7]", "umenu[3]", 0 ],
 			"obj-200::obj-132" : [ "toggle[25]", "toggle", 0 ],
-			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ],
-			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
-			"obj-216" : [ "toggle[24]", "toggle", 0 ],
-			"obj-31" : [ "toggle[3]", "toggle", 0 ],
-			"obj-49" : [ "toggle[2]", "toggle", 0 ],
-			"obj-88::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
-			"obj-32" : [ "toggle[1]", "toggle", 0 ],
-			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
+			"obj-41" : [ "umenu", "umenu", 0 ],
+			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ],
 			"obj-88::obj-81" : [ "flonum", "flonum", 0 ],
-			"obj-200::obj-136" : [ "toggle[22]", "toggle[8]", 0 ],
-			"obj-88::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-200::obj-202" : [ "toggle[27]", "toggle", 0 ],
-			"obj-86" : [ "toggle[4]", "toggle", 0 ],
-			"obj-20" : [ "slider[3]", "slider[2]", 0 ]
+			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ],
+			"obj-32" : [ "toggle[1]", "toggle", 0 ],
+			"obj-31" : [ "toggle[3]", "toggle", 0 ],
+			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
+			"obj-49" : [ "toggle[2]", "toggle", 0 ],
+			"obj-216" : [ "toggle[24]", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "kinectGutsOpenNI_ABS.maxpat",
+				"name" : "kinectGutsMS_ABS.maxpat",
 				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -24005,10 +24005,6 @@
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.openni.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
