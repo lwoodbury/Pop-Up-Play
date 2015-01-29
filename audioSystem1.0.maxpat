@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1188.0, 90.0, 619.0, 634.0 ],
+		"rect" : [ 834.0, 154.0, 880.0, 822.0 ],
 		"bgcolor" : [ 0.294118, 0.258824, 0.243137, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1376,7 +1376,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1192.0, 366.0, 715.0, 526.0 ],
+						"rect" : [ 205.0, 253.0, 723.0, 525.0 ],
 						"bgcolor" : [ 0.227451, 0.2, 0.188235, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3663,7 +3663,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 399.0, 297.0, 149.0, 355.0 ],
+										"rect" : [ 1133.0, 428.0, 149.0, 355.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -3706,7 +3706,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 192.0, 54.0, 20.0 ],
-													"text" : "gate 1 1"
+													"text" : "gate 1 0"
 												}
 
 											}
@@ -12617,83 +12617,83 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-102" : [ "slider[4]", "slider[4]", 0 ],
-			"obj-9" : [ "slider[5]", "slider[5]", 0 ],
 			"obj-7::obj-82" : [ "slider[11]", "slider", 0 ],
-			"obj-7::obj-13" : [ "umenu[12]", "umenu[8]", 0 ],
-			"obj-59" : [ "toggle[16]", "toggle", 0 ],
 			"obj-7::obj-89" : [ "umenu[17]", "umenu[6]", 0 ],
-			"obj-7::obj-100" : [ "slider[12]", "slider[2]", 0 ],
-			"obj-7::obj-80" : [ "umenu[15]", "umenu[4]", 0 ],
-			"obj-7::obj-33" : [ "toggle[21]", "toggle", 0 ],
-			"obj-58" : [ "toggle[7]", "toggle", 0 ],
-			"obj-99" : [ "toggle[5]", "toggle", 0 ],
-			"obj-7::obj-30" : [ "umenu[14]", "umenu[5]", 0 ],
-			"obj-25" : [ "slider[6]", "slider", 0 ],
-			"obj-35" : [ "toggle[3]", "toggle", 0 ],
-			"obj-7::obj-35" : [ "toggle[20]", "toggle", 0 ],
-			"obj-7::obj-6" : [ "toggle[19]", "toggle", 0 ],
-			"obj-7::obj-99" : [ "toggle[17]", "toggle", 0 ],
-			"obj-7::obj-25" : [ "slider[10]", "slider", 0 ],
-			"obj-7::obj-113" : [ "umenu[11]", "umenu[7]", 0 ],
-			"obj-100" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-23" : [ "umenu[9]", "umenu[4]", 0 ],
-			"obj-87" : [ "umenu[5]", "umenu[5]", 0 ],
 			"obj-30" : [ "umenu[10]", "umenu[5]", 0 ],
-			"obj-33" : [ "toggle[2]", "toggle", 0 ],
-			"obj-7::obj-2" : [ "slider[7]", "slider", 0 ],
-			"obj-7::obj-23" : [ "umenu[13]", "umenu[4]", 0 ],
-			"obj-7::obj-102" : [ "slider[8]", "slider[4]", 0 ],
+			"obj-58" : [ "toggle[7]", "toggle", 0 ],
+			"obj-7::obj-35" : [ "toggle[20]", "toggle", 0 ],
+			"obj-102" : [ "slider[4]", "slider[4]", 0 ],
 			"obj-7::obj-9" : [ "slider[9]", "slider[5]", 0 ],
+			"obj-7::obj-23" : [ "umenu[13]", "umenu[4]", 0 ],
+			"obj-7::obj-113" : [ "umenu[11]", "umenu[7]", 0 ],
+			"obj-7::obj-30" : [ "umenu[14]", "umenu[5]", 0 ],
+			"obj-7::obj-80" : [ "umenu[15]", "umenu[4]", 0 ],
+			"obj-7::obj-13" : [ "umenu[12]", "umenu[8]", 0 ],
+			"obj-100" : [ "slider[2]", "slider[2]", 0 ],
+			"obj-12" : [ "slider[3]", "slider", 0 ],
+			"obj-7::obj-102" : [ "slider[8]", "slider[4]", 0 ],
+			"obj-7::obj-25" : [ "slider[10]", "slider", 0 ],
+			"obj-7::obj-2" : [ "slider[7]", "slider", 0 ],
 			"obj-113" : [ "umenu[7]", "umenu[7]", 0 ],
-			"obj-82" : [ "slider", "slider", 0 ],
-			"obj-13" : [ "umenu[8]", "umenu[8]", 0 ],
+			"obj-7::obj-33" : [ "toggle[21]", "toggle", 0 ],
+			"obj-59" : [ "toggle[16]", "toggle", 0 ],
 			"obj-7::obj-87" : [ "umenu[16]", "umenu[5]", 0 ],
 			"obj-7::obj-58" : [ "toggle[18]", "toggle", 0 ],
-			"obj-6" : [ "toggle[1]", "toggle", 0 ],
 			"obj-80" : [ "umenu[4]", "umenu[4]", 0 ],
-			"obj-12" : [ "slider[3]", "slider", 0 ],
-			"obj-89" : [ "umenu[6]", "umenu[6]", 0 ]
+			"obj-9" : [ "slider[5]", "slider[5]", 0 ],
+			"obj-13" : [ "umenu[8]", "umenu[8]", 0 ],
+			"obj-25" : [ "slider[6]", "slider", 0 ],
+			"obj-89" : [ "umenu[6]", "umenu[6]", 0 ],
+			"obj-7::obj-99" : [ "toggle[17]", "toggle", 0 ],
+			"obj-7::obj-100" : [ "slider[12]", "slider[2]", 0 ],
+			"obj-6" : [ "toggle[1]", "toggle", 0 ],
+			"obj-82" : [ "slider", "slider", 0 ],
+			"obj-35" : [ "toggle[3]", "toggle", 0 ],
+			"obj-7::obj-6" : [ "toggle[19]", "toggle", 0 ],
+			"obj-87" : [ "umenu[5]", "umenu[5]", 0 ],
+			"obj-99" : [ "toggle[5]", "toggle", 0 ],
+			"obj-33" : [ "toggle[2]", "toggle", 0 ],
+			"obj-23" : [ "umenu[9]", "umenu[4]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "power.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "link.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loop.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PUPlogo.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speakerBl.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cloud.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play - OpenNI",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
