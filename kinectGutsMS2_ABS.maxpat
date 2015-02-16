@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 0,
 			"revision" : 1,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -79,7 +79,7 @@
 							"major" : 7,
 							"minor" : 0,
 							"revision" : 1,
-							"architecture" : "x64",
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -452,7 +452,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 1,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -1998,7 +1998,7 @@
 											"major" : 7,
 											"minor" : 0,
 											"revision" : 1,
-											"architecture" : "x64",
+											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
@@ -2030,6 +2030,19 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-20",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 66.0, 253.0, 93.0, 22.0 ],
+													"style" : "",
+													"text" : "r kinectExternal"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-18",
@@ -2241,7 +2254,7 @@
 															"major" : 7,
 															"minor" : 0,
 															"revision" : 1,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -2787,7 +2800,7 @@
 															"major" : 7,
 															"minor" : 0,
 															"revision" : 1,
-															"architecture" : "x64",
+															"architecture" : "x86",
 															"modernui" : 1
 														}
 ,
@@ -3110,6 +3123,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-2", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-20", 0 ]
 												}
 
 											}
@@ -4064,7 +4086,7 @@
 									"destination" : [ "obj-67", 3 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 1023.666687, 571.0, 1124.166687, 571.0 ],
+									"midpoints" : [ 1023.666687, 571.0, 1124.166748, 571.0 ],
 									"source" : [ "obj-66", 1 ]
 								}
 
@@ -4625,25 +4647,25 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
 			"obj-81" : [ "flonum", "flonum", 0 ],
-			"obj-62" : [ "flonum[2]", "flonum[2]", 0 ]
+			"obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-23" : [ "flonum[1]", "flonum[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
 				"bootpath" : "/ProgramData/Max 7/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../../../ProgramData/Max 7/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../../ProgramData/Max 7/examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dp.kinect2.mxe64",
-				"type" : "mx64"
+				"name" : "dp.kinect2.mxe",
+				"type" : "iLaF"
 			}
 , 			{
-				"name" : "jit.pass.mxe64",
-				"type" : "mx64"
+				"name" : "jit.pass.mxe",
+				"type" : "iLaF"
 			}
  ],
 		"embedsnapshot" : 0

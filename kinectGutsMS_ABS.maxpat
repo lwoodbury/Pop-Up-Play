@@ -1854,6 +1854,19 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 74.0, 193.0, 93.0, 22.0 ],
+													"style" : "",
+													"text" : "r kinectExternal"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"comment" : "",
 													"id" : "obj-18",
 													"maxclass" : "inlet",
@@ -2344,6 +2357,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-27", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-1", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-3", 0 ]
 												}
 
 											}
@@ -3578,9 +3600,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-81" : [ "flonum", "flonum", 0 ],
 			"obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
-			"obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-81" : [ "flonum", "flonum", 0 ]
+			"obj-23" : [ "flonum[1]", "flonum[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
