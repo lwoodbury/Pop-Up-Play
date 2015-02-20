@@ -623,6 +623,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
@@ -630,9 +631,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.464294, 41.0, 119.0, 22.0 ],
+					"patching_rect" : [ 40.464294, 41.0, 113.0, 22.0 ],
 					"style" : "",
-					"text" : "prepend set Overlay"
+					"text" : "prepend set Cutout"
 				}
 
 			}
@@ -722,11 +723,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.464294, 70.0, 99.0, 27.0 ],
+					"patching_rect" : [ 40.464294, 70.0, 99.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.237244, 11.746086, 101.953308, 27.0 ],
+					"presentation_rect" : [ 4.237244, 11.746086, 101.953308, 24.0 ],
 					"style" : "",
-					"text" : "Overlay #1",
+					"text" : "Cutout #1",
 					"textcolor" : [ 0.062745, 0.407843, 0.690196, 1.0 ]
 				}
 
@@ -750,7 +751,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
+						"rect" : [ 34.0, 79.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -786,7 +787,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 41.0, 20.0 ],
+									"patching_rect" : [ 50.0, 100.0, 41.0, 22.0 ],
 									"style" : "",
 									"text" : "r path"
 								}
@@ -794,6 +795,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
@@ -801,9 +803,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 126.0, 173.0, 20.0 ],
+									"patching_rect" : [ 50.0, 126.0, 209.0, 22.0 ],
 									"style" : "",
-									"text" : "combine filepath media/alphas"
+									"text" : "combine filepath media/visualCutouts"
 								}
 
 							}
@@ -816,7 +818,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 151.0, 87.0, 20.0 ],
+									"patching_rect" : [ 50.0, 151.0, 87.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend prefix"
 								}
@@ -4671,24 +4673,24 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-7" : [ "umenu[10]", "umenu[2]", 0 ],
+			"obj-50" : [ "umenu[13]", "umenu[13]", 0 ],
 			"obj-26" : [ "slider[8]", "slider[2]", 0 ],
 			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
 			"obj-56" : [ "toggle[17]", "toggle", 0 ],
-			"obj-7" : [ "umenu[10]", "umenu[2]", 0 ],
-			"obj-50" : [ "umenu[13]", "umenu[13]", 0 ],
 			"obj-112" : [ "toggle[18]", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "layer.png",
-				"bootpath" : "~/Pop-Up-Play",
+				"bootpath" : "~/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loop.png",
-				"bootpath" : "~/Pop-Up-Play",
+				"bootpath" : "~/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1

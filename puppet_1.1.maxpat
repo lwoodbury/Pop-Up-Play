@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 377.0, 159.0, 620.0, 650.0 ],
+		"rect" : [ 536.0, 155.0, 620.0, 650.0 ],
 		"bgcolor" : [ 0.294118, 0.258824, 0.243137, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"showontab" : 1,
+		"title" : "Puppet",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-13",
@@ -625,7 +626,7 @@
 															"modernui" : 1
 														}
 ,
-														"rect" : [ 903.0, 102.0, 640.0, 480.0 ],
+														"rect" : [ 766.0, 102.0, 640.0, 480.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -661,7 +662,7 @@
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 100.0, 41.0, 20.0 ],
+																	"patching_rect" : [ 50.0, 100.0, 41.0, 22.0 ],
 																	"style" : "",
 																	"text" : "r path"
 																}
@@ -669,6 +670,7 @@
 															}
 , 															{
 																"box" : 																{
+																	"fontface" : 0,
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-27",
@@ -676,9 +678,9 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
-																	"patching_rect" : [ 50.0, 126.0, 174.0, 20.0 ],
+																	"patching_rect" : [ 50.0, 126.0, 180.0, 22.0 ],
 																	"style" : "",
-																	"text" : "combine filepath media/puppet"
+																	"text" : "combine filepath media/puppets"
 																}
 
 															}
@@ -691,7 +693,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 50.0, 151.0, 87.0, 20.0 ],
+																	"patching_rect" : [ 50.0, 151.0, 87.0, 22.0 ],
 																	"style" : "",
 																	"text" : "prepend prefix"
 																}
@@ -740,7 +742,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 170.0, 219.0, 77.0, 20.0 ],
+													"patching_rect" : [ 170.0, 219.0, 77.0, 22.0 ],
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -763,7 +765,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "int", "int" ],
-													"patching_rect" : [ 50.0, 130.0, 46.0, 20.0 ],
+													"patching_rect" : [ 50.0, 130.0, 46.0, 22.0 ],
 													"style" : "",
 													"text" : "t 1 i 0"
 												}
@@ -778,7 +780,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 192.0, 54.0, 20.0 ],
+													"patching_rect" : [ 50.0, 192.0, 54.0, 22.0 ],
 													"style" : "",
 													"text" : "gate 1 1"
 												}
@@ -792,7 +794,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 219.0, 87.0, 20.0 ],
+													"patching_rect" : [ 50.0, 219.0, 87.0, 22.0 ],
 													"style" : "",
 													"text" : "s puppetMenu"
 												}
@@ -807,7 +809,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 50.0, 100.0, 95.0, 20.0 ],
+													"patching_rect" : [ 50.0, 100.0, 95.0, 22.0 ],
 													"style" : "",
 													"text" : "r puppetMenuM"
 												}
@@ -1775,10 +1777,10 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 254.0, 160.25, 185.0, 27.0 ],
+									"patching_rect" : [ 254.0, 160.25, 185.0, 26.0 ],
 									"prefix" : "C:/Users/PopUpPlay/Documents/Pop-Up-Play/media/puppet/",
 									"presentation" : 1,
-									"presentation_rect" : [ 240.357147, 96.802948, 175.5, 27.0 ],
+									"presentation_rect" : [ 240.357147, 96.802948, 175.5, 26.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "umenu[8]",
@@ -1838,7 +1840,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 529.55365, 341.5, 150.0, 75.0 ],
+									"patching_rect" : [ 529.55365, 341.5, 150.0, 74.0 ],
 									"style" : "",
 									"text" : "Another hack to make MIRA work properly!\nWon't show identifier number without opening and closing the patch. "
 								}
@@ -2209,7 +2211,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 39.053589, 423.75, 111.0, 34.0 ],
+									"patching_rect" : [ 39.053589, 423.75, 111.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 401.237244, 456.5, 138.0, 20.0 ],
 									"style" : "",
@@ -3594,7 +3596,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 219.289063, 317.750031, 202.460938, 199.0 ],
+									"patching_rect" : [ 219.289062, 317.750031, 202.460938, 199.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 20.225967, 216.016937, 185.548065, 184.825958 ],
 									"proportion" : 0.39,
@@ -4108,7 +4110,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 359.039063, 277.750031, 49.0, 22.0 ],
+					"patching_rect" : [ 359.039062, 277.750031, 49.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -4163,7 +4165,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 427.306824, 277.750031, 87.928558, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 76.846161, 212.960052, 85.0, 20.0 ],
+					"presentation_rect" : [ 76.846161, 213.960052, 85.0, 20.0 ],
 					"style" : "",
 					"text" : "Identify Users",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -4183,7 +4185,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 423.306824, 277.750031, 95.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.73349, 213.960052, 107.225281, 17.0 ],
+					"presentation_rect" : [ 65.73349, 214.960052, 107.225281, 17.0 ],
 					"prototypename" : "GRN_lozenge_LiveTog",
 					"rounded" : 15.0,
 					"saved_attribute_attributes" : 					{
@@ -4220,7 +4222,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 25.0, 70.0, 640.0, 480.0 ],
+						"rect" : [ 34.0, 79.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4256,7 +4258,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 160.821442, 192.537476, 85.0, 20.0 ],
+									"patching_rect" : [ 160.821442, 192.537476, 85.0, 22.0 ],
 									"style" : "",
 									"text" : "r puppetMenu"
 								}
@@ -4264,6 +4266,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-42",
@@ -4271,9 +4274,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 132.431641, 174.0, 20.0 ],
+									"patching_rect" : [ 50.0, 132.431641, 180.0, 22.0 ],
 									"style" : "",
-									"text" : "combine filepath media/puppet"
+									"text" : "combine filepath media/puppets"
 								}
 
 							}
@@ -4286,7 +4289,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 158.431641, 87.0, 20.0 ],
+									"patching_rect" : [ 50.0, 158.431641, 87.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend prefix"
 								}
@@ -4301,7 +4304,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 41.0, 20.0 ],
+									"patching_rect" : [ 50.0, 100.0, 41.0, 22.0 ],
 									"style" : "",
 									"text" : "r path"
 								}
@@ -20284,7 +20287,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 130.321442, 506.0, 91.357117, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.733521, 447.246094, 91.357117, 20.0 ],
+					"presentation_rect" : [ 67.733521, 447.246094, 91.357117, 20.0 ],
 					"style" : "",
 					"text" : "Reload Folders",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -20662,10 +20665,10 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 139.821442, 195.324951, 185.0, 27.0 ],
+					"patching_rect" : [ 139.821442, 195.324951, 185.0, 26.0 ],
 					"prefix" : "C:/Users/PopUpPlay/Documents/Pop-Up-Play/media/puppet/",
 					"presentation" : 1,
-					"presentation_rect" : [ 261.844116, 103.802948, 175.5, 27.0 ],
+					"presentation_rect" : [ 261.844116, 103.802948, 175.5, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "umenu[6]",
@@ -20858,7 +20861,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 416.039063, 270.750031, 202.460938, 199.0 ],
+					"patching_rect" : [ 416.039062, 270.750031, 202.460938, 199.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.798096, 208.4086, 193.09613, 190.462494 ],
 					"proportion" : 0.39,
@@ -21169,76 +21172,76 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2" : [ "toggle[16]", "toggle", 0 ],
-			"obj-60::obj-31" : [ "flonum[4]", "flonum[4]", 0 ],
-			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
-			"obj-90::obj-45" : [ "umenu[8]", "umenu[3]", 0 ],
-			"obj-60::obj-33" : [ "flonum[5]", "flonum[5]", 0 ],
-			"obj-106" : [ "toggle[1]", "toggle", 0 ],
-			"obj-45" : [ "umenu[6]", "umenu[3]", 0 ],
-			"obj-60::obj-34" : [ "flonum[6]", "flonum[6]", 0 ],
-			"obj-60::obj-26" : [ "toggle", "toggle", 0 ],
-			"obj-90::obj-3" : [ "toggle[17]", "toggle", 0 ],
-			"obj-42" : [ "toggle[28]", "toggle", 0 ],
+			"obj-90::obj-42" : [ "toggle[2]", "toggle", 0 ],
 			"obj-60::obj-15" : [ "slider", "slider", 0 ],
-			"obj-65" : [ "slider[3]", "slider[2]", 0 ],
-			"obj-60::obj-8" : [ "flonum[3]", "flonum[3]", 0 ],
+			"obj-106" : [ "toggle[1]", "toggle", 0 ],
+			"obj-42" : [ "toggle[28]", "toggle", 0 ],
 			"obj-90::obj-17" : [ "umenu[7]", "umenu[13]", 0 ],
-			"obj-90::obj-42" : [ "toggle[2]", "toggle", 0 ]
+			"obj-60::obj-34" : [ "flonum[6]", "flonum[6]", 0 ],
+			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
+			"obj-60::obj-33" : [ "flonum[5]", "flonum[5]", 0 ],
+			"obj-60::obj-31" : [ "flonum[4]", "flonum[4]", 0 ],
+			"obj-65" : [ "slider[3]", "slider[2]", 0 ],
+			"obj-2" : [ "toggle[16]", "toggle", 0 ],
+			"obj-60::obj-26" : [ "toggle", "toggle", 0 ],
+			"obj-90::obj-45" : [ "umenu[8]", "umenu[3]", 0 ],
+			"obj-90::obj-3" : [ "toggle[17]", "toggle", 0 ],
+			"obj-45" : [ "umenu[6]", "umenu[3]", 0 ],
+			"obj-60::obj-8" : [ "flonum[3]", "flonum[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "layer.png",
-				"bootpath" : "~/Pop-Up-Play",
+				"bootpath" : "~/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "power.png",
-				"bootpath" : "~/Pop-Up-Play",
+				"bootpath" : "~/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.centroid.maxpat",
-				"bootpath" : "~/Max 7/Packages/Mira/patchers",
-				"patcherrelativepath" : "../Max 7/Packages/Mira/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../Max 7/Packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.touch.maxpat",
-				"bootpath" : "~/Max 7/Packages/Mira/patchers",
-				"patcherrelativepath" : "../Max 7/Packages/Mira/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../Max 7/Packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.centroid.js",
-				"bootpath" : "~/Max 7/Packages/Mira/patchers",
-				"patcherrelativepath" : "../Max 7/Packages/Mira/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../Max 7/Packages/Mira/patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.pinch.maxpat",
-				"bootpath" : "~/Max 7/Packages/Mira/patchers",
-				"patcherrelativepath" : "../Max 7/Packages/Mira/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../Max 7/Packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.rotate.maxpat",
-				"bootpath" : "~/Max 7/Packages/Mira/patchers",
-				"patcherrelativepath" : "../Max 7/Packages/Mira/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../Max 7/Packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PUPlogo.png",
-				"bootpath" : "~/Pop-Up-Play",
+				"bootpath" : "~/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
