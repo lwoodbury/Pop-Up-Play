@@ -1,0 +1,1 @@
+open thispatcherappicon "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play/PUPicon.ico"
