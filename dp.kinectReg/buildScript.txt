@@ -1,0 +1,2 @@
+open thispatcher
+appicon C:/Users/user/Documents/PUP/PUPicon.ico
