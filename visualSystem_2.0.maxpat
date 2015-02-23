@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1.0, 45.0, 616.0, 630.0 ],
+		"rect" : [ 17.0, 62.0, 616.0, 630.0 ],
 		"bgcolor" : [ 0.294118, 0.258824, 0.243137, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -8601,7 +8601,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 294.0, 301.0, 640.0, 480.0 ],
+										"rect" : [ 52.0, 182.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -9776,7 +9776,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
 													"patching_rect" : [ 1.5, 418.28418, 161.0, 20.0 ],
-													"text" : "jit.window pup @pos 625 45"
+													"text" : "jit.window pup @pos 650 55"
 												}
 
 											}
@@ -12688,8 +12688,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 143.0, 238.0, 22.0 ],
-									"text" : "combine filepath media/visualBackgrounds"
+									"patching_rect" : [ 50.0, 143.0, 241.0, 20.0 ],
+									"text" : "combine filepath media/visualBackgrounds/"
 								}
 
 							}
@@ -12702,7 +12702,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 168.0, 87.0, 22.0 ],
+									"patching_rect" : [ 50.0, 168.0, 87.0, 20.0 ],
 									"text" : "prepend prefix"
 								}
 
@@ -12716,7 +12716,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 41.0, 22.0 ],
+									"patching_rect" : [ 50.0, 100.0, 41.0, 20.0 ],
 									"text" : "r path"
 								}
 
@@ -24352,9 +24352,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.357178, 346.0, 235.0, 24.0 ],
+					"patching_rect" : [ 50.357178, 346.0, 235.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 342.246094, 86.0, 24.0 ],
+					"presentation_rect" : [ 32.0, 342.246094, 86.0, 27.0 ],
 					"text" : "Webcam:",
 					"textcolor" : [ 0.062745, 0.407843, 0.690196, 1.0 ]
 				}
@@ -25589,143 +25589,147 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ],
-			"obj-210" : [ "toggle[23]", "toggle", 0 ],
-			"obj-86" : [ "toggle[4]", "toggle", 0 ],
-			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
-			"obj-200::obj-29" : [ "umenu[7]", "umenu[3]", 0 ],
-			"obj-116" : [ "toggle[28]", "toggle", 0 ],
-			"obj-61" : [ "toggle[29]", "toggle", 0 ],
+			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
+			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ],
 			"obj-132" : [ "toggle[15]", "toggle", 0 ],
+			"obj-61" : [ "toggle[29]", "toggle", 0 ],
+			"obj-200::obj-132" : [ "toggle[25]", "toggle", 0 ],
+			"obj-116" : [ "toggle[28]", "toggle", 0 ],
 			"obj-216" : [ "toggle[24]", "toggle", 0 ],
-			"obj-200::obj-202" : [ "toggle[27]", "toggle", 0 ],
-			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
-			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
+			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ],
+			"obj-106" : [ "toggle[16]", "toggle", 0 ],
+			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
+			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
 			"obj-32" : [ "toggle[1]", "toggle", 0 ],
 			"obj-31" : [ "toggle[3]", "toggle", 0 ],
-			"obj-41" : [ "umenu", "umenu", 0 ],
-			"obj-106" : [ "toggle[16]", "toggle", 0 ],
-			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
-			"obj-57::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
-			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
 			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
-			"obj-49" : [ "toggle[2]", "toggle", 0 ],
-			"obj-57::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-63" : [ "toggle[6]", "toggle", 0 ],
-			"obj-202" : [ "toggle[12]", "toggle", 0 ],
-			"obj-57::obj-81" : [ "flonum", "flonum", 0 ],
-			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ],
+			"obj-200::obj-29" : [ "umenu[7]", "umenu[3]", 0 ],
 			"obj-200::obj-136" : [ "toggle[22]", "toggle[8]", 0 ],
+			"obj-200::obj-202" : [ "toggle[27]", "toggle", 0 ],
+			"obj-41" : [ "umenu", "umenu", 0 ],
+			"obj-63" : [ "toggle[6]", "toggle", 0 ],
+			"obj-86" : [ "toggle[4]", "toggle", 0 ],
 			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ],
-			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
-			"obj-200::obj-132" : [ "toggle[25]", "toggle", 0 ],
-			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ]
+			"obj-49" : [ "toggle[2]", "toggle", 0 ],
+			"obj-57::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-202" : [ "toggle[12]", "toggle", 0 ],
+			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
+			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
+			"obj-210" : [ "toggle[23]", "toggle", 0 ],
+			"obj-57::obj-81" : [ "flonum", "flonum", 0 ],
+			"obj-57::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
+			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "kinectGutsMS_ABS.maxpat",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
+				"bootpath" : "/Users/user/Documents/PUP",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.centroid.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.touch.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.centroid.js",
-				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.pinch.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.rotate.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
+				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "link.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
+				"bootpath" : "/Users/user/Documents/PUP",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "power.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
+				"bootpath" : "/Users/user/Documents/PUP",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kinect.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
+				"bootpath" : "/Users/user/Documents/PUP",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camera.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
+				"bootpath" : "/Users/user/Documents/PUP",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layer.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
+				"bootpath" : "/Users/user/Documents/PUP",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PUPlogo.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
+				"bootpath" : "/Users/user/Documents/PUP",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loop.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
+				"bootpath" : "/Users/user/Documents/PUP",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cloud.png",
-				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
+				"bootpath" : "/Users/user/Documents/PUP",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.pass.mxe",
+				"type" : "iLaF"
 			}
  ]
 	}
