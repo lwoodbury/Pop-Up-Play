@@ -2944,7 +2944,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 521.0, 275.0, 720.0, 589.0 ],
+						"rect" : [ 356.0, 177.0, 720.0, 589.0 ],
 						"bgcolor" : [ 0.227451, 0.2, 0.188235, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3152,7 +3152,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 419.678589, 288.25, 49.0, 22.0 ],
+									"patching_rect" : [ 419.678589, 288.25, 49.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -3343,7 +3343,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 288.428589, 411.25, 49.0, 22.0 ],
+									"patching_rect" : [ 288.428589, 411.25, 49.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -3534,7 +3534,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 137.107178, 392.0, 49.0, 22.0 ],
+									"patching_rect" : [ 137.107178, 392.0, 49.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -3873,7 +3873,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 56.75, 444.75, 49.0, 22.0 ],
+									"patching_rect" : [ 56.75, 444.75, 49.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -4212,7 +4212,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 267.035767, 110.25, 49.0, 22.0 ],
+									"patching_rect" : [ 267.035767, 110.25, 49.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -4551,7 +4551,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 30.357178, 110.25, 49.0, 22.0 ],
+									"patching_rect" : [ 30.357178, 110.25, 49.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -4742,7 +4742,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 174.178558, 85.5, 49.0, 22.0 ],
+									"patching_rect" : [ 174.178558, 85.5, 49.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -4933,7 +4933,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 56.75, 62.5, 49.0, 22.0 ],
+									"patching_rect" : [ 56.75, 62.5, 49.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -4992,7 +4992,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 612.0, 28.0, 60.0, 22.0 ],
+									"patching_rect" : [ 612.0, 28.0, 60.0, 20.0 ],
 									"text" : "loadbang"
 								}
 
@@ -5006,7 +5006,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 612.0, 53.0, 155.107178, 22.0 ],
+									"patching_rect" : [ 612.0, 53.0, 155.107178, 18.0 ],
 									"text" : "destrect 0. 0. 60. 61"
 								}
 
@@ -5084,6 +5084,7 @@
 , 							{
 								"box" : 								{
 									"autopopulate" : 1,
+									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 16.0,
 									"id" : "obj-82",
@@ -5093,10 +5094,10 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 56.75, 469.75, 185.0, 26.0 ],
+									"patching_rect" : [ 56.75, 469.75, 185.0, 24.0 ],
 									"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play/Media/textures/",
 									"presentation" : 1,
-									"presentation_rect" : [ 65.024719, 251.116333, 149.928589, 26.0 ],
+									"presentation_rect" : [ 65.024719, 251.116333, 149.928589, 24.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "umenu[8]",
@@ -5386,6 +5387,7 @@
 , 							{
 								"box" : 								{
 									"autopopulate" : 1,
+									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 16.0,
 									"id" : "obj-7",
@@ -5395,10 +5397,10 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 267.035767, 130.5, 185.0, 26.0 ],
+									"patching_rect" : [ 267.035767, 130.5, 185.0, 24.0 ],
 									"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play/Media/weather/",
 									"presentation" : 1,
-									"presentation_rect" : [ 476.963196, 67.504669, 175.5, 26.0 ],
+									"presentation_rect" : [ 476.963196, 67.504669, 175.5, 24.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "umenu[6]",
@@ -5418,6 +5420,7 @@
 , 							{
 								"box" : 								{
 									"autopopulate" : 1,
+									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 16.0,
 									"id" : "obj-29",
@@ -5427,10 +5430,10 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 1,
-									"patching_rect" : [ 30.357178, 130.5, 185.0, 26.0 ],
+									"patching_rect" : [ 30.357178, 130.5, 185.0, 24.0 ],
 									"prefix" : "Macintosh HD:/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play/Media/visuals/",
 									"presentation" : 1,
-									"presentation_rect" : [ 171.188477, 67.504669, 239.0, 26.0 ],
+									"presentation_rect" : [ 171.188477, 67.504669, 239.0, 24.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "umenu[7]",
@@ -5473,7 +5476,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 685.303589, 323.75, 103.0, 22.0 ],
+									"patching_rect" : [ 685.303589, 323.75, 103.0, 20.0 ],
 									"text" : "s WClayerIncDec"
 								}
 
@@ -5503,7 +5506,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 182.428558, 312.75, 91.0, 22.0 ],
+									"patching_rect" : [ 182.428558, 312.75, 91.0, 20.0 ],
 									"text" : "s KlayerIncDec"
 								}
 
@@ -6598,7 +6601,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 29.25, 396.75, 98.0, 22.0 ],
+									"patching_rect" : [ 29.25, 396.75, 98.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -7670,7 +7673,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 524.25, 411.25, 98.0, 22.0 ],
+									"patching_rect" : [ 524.25, 411.25, 98.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -7697,7 +7700,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 182.428558, 282.75, 32.5, 22.0 ],
+									"patching_rect" : [ 182.428558, 282.75, 32.5, 18.0 ],
 									"text" : "inc"
 								}
 
@@ -7711,13 +7714,14 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 217.928558, 282.75, 32.5, 22.0 ],
+									"patching_rect" : [ 217.928558, 282.75, 32.5, 18.0 ],
 									"text" : "dec"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
 									"id" : "obj-104",
@@ -7725,9 +7729,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 217.928558, 252.75, 28.0, 29.0 ],
+									"patching_rect" : [ 217.928558, 252.75, 28.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 120.042015, 176.423553, 28.0, 29.0 ],
+									"presentation_rect" : [ 120.042015, 177.423553, 28.0, 25.0 ],
 									"text" : "▼",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -7735,6 +7739,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
 									"id" : "obj-105",
@@ -7742,9 +7747,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 217.928558, 229.75, 28.0, 29.0 ],
+									"patching_rect" : [ 217.928558, 229.75, 28.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 120.042015, 153.423553, 28.0, 29.0 ],
+									"presentation_rect" : [ 120.042015, 152.423553, 28.0, 25.0 ],
 									"text" : "▲",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -7759,7 +7764,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 654.428589, 267.75, 32.5, 22.0 ],
+									"patching_rect" : [ 654.428589, 267.75, 32.5, 18.0 ],
 									"text" : "inc"
 								}
 
@@ -7773,13 +7778,14 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 691.928589, 301.25, 32.5, 22.0 ],
+									"patching_rect" : [ 691.928589, 301.25, 32.5, 18.0 ],
 									"text" : "dec"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
 									"id" : "obj-80",
@@ -7787,9 +7793,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 691.928589, 271.25, 28.0, 29.0 ],
+									"patching_rect" : [ 691.928589, 271.25, 28.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 120.042015, 387.592438, 28.0, 29.0 ],
+									"presentation_rect" : [ 120.042015, 388.592438, 28.0, 25.0 ],
 									"text" : "▼",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -7797,6 +7803,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
 									"id" : "obj-96",
@@ -7804,9 +7811,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 691.928589, 248.25, 28.0, 29.0 ],
+									"patching_rect" : [ 691.928589, 248.25, 28.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 120.042015, 364.592438, 28.0, 29.0 ],
+									"presentation_rect" : [ 120.042015, 363.592438, 28.0, 25.0 ],
 									"text" : "▲",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -24352,9 +24359,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.357178, 346.0, 235.0, 27.0 ],
+					"patching_rect" : [ 50.357178, 346.0, 235.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 342.246094, 86.0, 27.0 ],
+					"presentation_rect" : [ 32.0, 342.246094, 86.0, 24.0 ],
 					"text" : "Webcam:",
 					"textcolor" : [ 0.062745, 0.407843, 0.690196, 1.0 ]
 				}
@@ -25589,147 +25596,143 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
-			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ],
-			"obj-132" : [ "toggle[15]", "toggle", 0 ],
-			"obj-61" : [ "toggle[29]", "toggle", 0 ],
-			"obj-200::obj-132" : [ "toggle[25]", "toggle", 0 ],
-			"obj-116" : [ "toggle[28]", "toggle", 0 ],
-			"obj-216" : [ "toggle[24]", "toggle", 0 ],
-			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ],
-			"obj-106" : [ "toggle[16]", "toggle", 0 ],
-			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
-			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
-			"obj-32" : [ "toggle[1]", "toggle", 0 ],
-			"obj-31" : [ "toggle[3]", "toggle", 0 ],
-			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-49" : [ "toggle[2]", "toggle", 0 ],
+			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
 			"obj-200::obj-29" : [ "umenu[7]", "umenu[3]", 0 ],
+			"obj-32" : [ "toggle[1]", "toggle", 0 ],
+			"obj-216" : [ "toggle[24]", "toggle", 0 ],
 			"obj-200::obj-136" : [ "toggle[22]", "toggle[8]", 0 ],
 			"obj-200::obj-202" : [ "toggle[27]", "toggle", 0 ],
-			"obj-41" : [ "umenu", "umenu", 0 ],
-			"obj-63" : [ "toggle[6]", "toggle", 0 ],
+			"obj-106" : [ "toggle[16]", "toggle", 0 ],
+			"obj-132" : [ "toggle[15]", "toggle", 0 ],
 			"obj-86" : [ "toggle[4]", "toggle", 0 ],
-			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ],
-			"obj-49" : [ "toggle[2]", "toggle", 0 ],
-			"obj-57::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
 			"obj-202" : [ "toggle[12]", "toggle", 0 ],
 			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
-			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
-			"obj-210" : [ "toggle[23]", "toggle", 0 ],
-			"obj-57::obj-81" : [ "flonum", "flonum", 0 ],
-			"obj-57::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
+			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ],
+			"obj-57::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-63" : [ "toggle[6]", "toggle", 0 ],
+			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
 			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
-			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ]
+			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ],
+			"obj-57::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
+			"obj-57::obj-81" : [ "flonum", "flonum", 0 ],
+			"obj-210" : [ "toggle[23]", "toggle", 0 ],
+			"obj-61" : [ "toggle[29]", "toggle", 0 ],
+			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ],
+			"obj-116" : [ "toggle[28]", "toggle", 0 ],
+			"obj-41" : [ "umenu", "umenu", 0 ],
+			"obj-200::obj-132" : [ "toggle[25]", "toggle", 0 ],
+			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ],
+			"obj-31" : [ "toggle[3]", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "kinectGutsMS_ABS.maxpat",
-				"bootpath" : "/Users/user/Documents/PUP",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
-				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/examples/jitter-examples/render/slab",
+				"bootpath" : "/Applications/Max 6.1/examples/jitter-examples/render/slab",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.centroid.maxpat",
-				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
+				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.touch.maxpat",
-				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
+				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.centroid.js",
-				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
+				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.pinch.maxpat",
-				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
+				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mira.mt.rotate.maxpat",
-				"bootpath" : "/PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
-				"patcherrelativepath" : "../../../../PROGRA~2/CYCLIN~1/MAX6~1.1/packages/Mira/patchers",
+				"bootpath" : "/Applications/Max 6.1/packages/Mira/patchers",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/packages/Mira/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "link.png",
-				"bootpath" : "/Users/user/Documents/PUP",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "power.png",
-				"bootpath" : "/Users/user/Documents/PUP",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kinect.png",
-				"bootpath" : "/Users/user/Documents/PUP",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "camera.png",
-				"bootpath" : "/Users/user/Documents/PUP",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "layer.png",
-				"bootpath" : "/Users/user/Documents/PUP",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PUPlogo.png",
-				"bootpath" : "/Users/user/Documents/PUP",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loop.png",
-				"bootpath" : "/Users/user/Documents/PUP",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cloud.png",
-				"bootpath" : "/Users/user/Documents/PUP",
+				"bootpath" : "/Users/lukewoodbury/Documents/Max/Patches/Pop_up_play/Pop Up Play",
 				"patcherrelativepath" : ".",
 				"type" : "PNG ",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "jit.pass.mxe",
-				"type" : "iLaF"
 			}
  ]
 	}
