@@ -34,6 +34,21 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-12",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 427.306824, 506.0, 207.0, 114.0 ],
+					"text" : "Kudos to Max user 'MATMAT' who's post here provided the basis for the pupet system:\n\nhttps://cycling74.com/forums/topic/trouble-with-animating-a-3d-puppet-from-kinect/\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -20109,22 +20124,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-60::obj-8" : [ "flonum[3]", "flonum[3]", 0 ],
-			"obj-90::obj-42" : [ "toggle[2]", "toggle", 0 ],
-			"obj-90::obj-3" : [ "toggle[17]", "toggle", 0 ],
-			"obj-45" : [ "umenu[6]", "umenu[3]", 0 ],
-			"obj-2" : [ "toggle[16]", "toggle", 0 ],
-			"obj-60::obj-26" : [ "toggle", "toggle", 0 ],
-			"obj-90::obj-17" : [ "umenu[7]", "umenu[13]", 0 ],
+			"obj-106" : [ "toggle[1]", "toggle", 0 ],
 			"obj-42" : [ "toggle[28]", "toggle", 0 ],
+			"obj-90::obj-17" : [ "umenu[7]", "umenu[13]", 0 ],
+			"obj-90::obj-3" : [ "toggle[17]", "toggle", 0 ],
 			"obj-90::obj-45" : [ "umenu[8]", "umenu[3]", 0 ],
+			"obj-90::obj-42" : [ "toggle[2]", "toggle", 0 ],
+			"obj-60::obj-26" : [ "toggle", "toggle", 0 ],
+			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
 			"obj-60::obj-34" : [ "flonum[6]", "flonum[6]", 0 ],
-			"obj-60::obj-15" : [ "slider", "slider", 0 ],
+			"obj-2" : [ "toggle[16]", "toggle", 0 ],
 			"obj-60::obj-33" : [ "flonum[5]", "flonum[5]", 0 ],
 			"obj-60::obj-31" : [ "flonum[4]", "flonum[4]", 0 ],
-			"obj-106" : [ "toggle[1]", "toggle", 0 ],
+			"obj-60::obj-15" : [ "slider", "slider", 0 ],
+			"obj-60::obj-8" : [ "flonum[3]", "flonum[3]", 0 ],
 			"obj-65" : [ "slider[3]", "slider[2]", 0 ],
-			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ]
+			"obj-45" : [ "umenu[6]", "umenu[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
