@@ -1,6 +1,10 @@
 Pop-Up-Play - Mixed reality system - http://thesparkarts.co.uk/popupplay/
+If you are not a developer, use the above link to access a simple download for the software. 
+-------------------------------------
 
 The software is built using Cycling74s 'Max' environment and is licensed under the MPL licence (see LICENCE file), but makes use of third party elements that have their own terms and conditions. See the Manuals, in the 'Manuals' folder for full instructions on installing, third party dependencies and a full description of the system. See the Pop Up Play website for details on the project. 
+
+NB - The main file to open is the Pop-Up-PlayMax.maxpat, the Pop-Up-Play.maxpat is a file used when building an app as it uses da ifferent path managment system. 
 
 -------------------------------------
 
@@ -9,6 +13,7 @@ Current version is based on MS Kinect libraries, exposed by the dp.kinect object
 
 ---------------------------------------
 If you experience any problems, find any bugs or want to request any features, please refer to the troubleshooting section of the manual, the issues list on this repository or the discussion boards on the Pop Up Play Website.
+
 
 
 
