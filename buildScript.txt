@@ -1,6 +1,0 @@
-open thispatcher
-
-appicon C:/Users/user/Documents/PUP/PUPicon.ico
-
-
-folder C:/Users/user/Documents/PUP/Externals
