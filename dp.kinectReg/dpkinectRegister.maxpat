@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 10,
 			"architecture" : "x86"
 		}
 ,
@@ -199,7 +199,7 @@
 					"patching_rect" : [ 56.5, 277.0, 224.0, 51.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 16.5, 24.0, 278.0, 36.0 ],
+					"presentation_rect" : [ 16.5, 24.0, 283.0, 36.0 ],
 					"text" : "NB: To use this tool you will need to have obtained a registration file and name here:\n"
 				}
 
@@ -350,7 +350,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 9,
+							"revision" : 10,
 							"architecture" : "x86"
 						}
 ,

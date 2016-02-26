@@ -1,0 +1,1 @@
+"support\dpkinect2Register\dpkinect2Register.exe"
