@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 2,
+			"revision" : 4,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 221.0, 144.0, 629.0, 512.0 ],
+		"rect" : [ 100.0, 109.0, 629.0, 512.0 ],
 		"bgcolor" : [ 0.227451, 0.2, 0.188235, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -39,6 +39,8 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -48,8 +50,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -109,8 +111,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 2,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -258,6 +260,8 @@
 							}
 , 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-2",
 									"linecount" : 3,
 									"maxclass" : "comment",
@@ -302,7 +306,6 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
-									"elementcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fgcolor" : [ 0.988235, 0.313726, 0.152941, 1.0 ],
 									"id" : "obj-131",
 									"maxclass" : "incdec",
@@ -426,15 +429,17 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0,
-					"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_autogradient" : 0.79,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
+					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"gradient" : 0,
 					"id" : "obj-80",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -442,7 +447,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 364.267883, 144.0, 23.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.019012, 23.746086, 23.0, 22.0 ],
+					"presentation_rect" : [ 109.019012, 23.746086, 23.0, 22.0 ],
 					"style" : "",
 					"text" : "▼",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -452,15 +457,17 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0,
-					"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_autogradient" : 0.79,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
+					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
+					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"gradient" : 0,
 					"id" : "obj-55",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -468,7 +475,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 364.267883, 121.0, 23.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.019012, 1.746086, 23.0, 22.0 ],
+					"presentation_rect" : [ 109.019012, 5.746086, 23.0, 22.0 ],
 					"style" : "",
 					"text" : "▲",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -478,6 +485,8 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-30",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -491,6 +500,8 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -504,7 +515,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-27",
@@ -623,7 +633,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
@@ -723,9 +732,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.464294, 70.0, 99.0, 24.0 ],
+					"patching_rect" : [ 40.464294, 70.0, 99.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.237244, 11.746086, 101.953308, 24.0 ],
+					"presentation_rect" : [ 4.237244, 11.746086, 101.953308, 27.0 ],
 					"style" : "",
 					"text" : "Cutout #1",
 					"textcolor" : [ 0.062745, 0.407843, 0.690196, 1.0 ]
@@ -745,8 +754,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -795,7 +804,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
@@ -894,8 +902,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1138,6 +1146,8 @@
 			}
 , 			{
 				"box" : 				{
+					"allowdrag" : 0,
+					"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1367,8 +1377,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1644,12 +1654,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.07451, 0.533333, 0.807843, 0.0 ],
-					"elementcolor" : [ 0.427451, 0.427451, 0.427451, 1.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-26",
-					"knobcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
-					"knobshape" : 1,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1671,7 +1677,7 @@
 					}
 ,
 					"size" : 2.0,
-					"style" : "",
+					"style" : "default",
 					"varname" : "slider[1]"
 				}
 
@@ -1689,8 +1695,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2086,7 +2092,9 @@
 			}
 , 			{
 				"box" : 				{
+					"allowdrag" : 0,
 					"autopopulate" : 1,
+					"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2133,8 +2141,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2198,7 +2206,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-64",
@@ -2256,8 +2263,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 2,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -3071,8 +3078,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 2,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -4274,6 +4281,8 @@
 			}
 , 			{
 				"box" : 				{
+					"allowdrag" : 0,
+					"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4673,30 +4682,28 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
+			"obj-26" : [ "slider[8]", "slider[2]", 0 ],
+			"obj-56" : [ "toggle[17]", "toggle", 0 ],
 			"obj-7" : [ "umenu[10]", "umenu[2]", 0 ],
 			"obj-50" : [ "umenu[13]", "umenu[13]", 0 ],
-			"obj-26" : [ "slider[8]", "slider[2]", 0 ],
-			"obj-17" : [ "umenu[4]", "umenu[13]", 0 ],
-			"obj-56" : [ "toggle[17]", "toggle", 0 ],
 			"obj-112" : [ "toggle[18]", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "layer.png",
-				"bootpath" : "~/Documents/Max/Patches/Pop_up_play/Pop Up Play",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Pop-Up-Play/Media/uiImages",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loop.png",
-				"bootpath" : "~/Documents/Max/Patches/Pop_up_play/Pop Up Play",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Pop-Up-Play/Media/uiImages",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

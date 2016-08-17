@@ -4,7 +4,7 @@ If you are not a developer, use the above link to access a simple download for t
 
 The software is built using Cycling74s 'Max' environment and is licensed under the MPL licence (see LICENCE file), but makes use of third party elements that have their own terms and conditions. See the Manuals, in the 'Manuals' folder for full instructions on installing, third party dependencies and a full description of the system. See the Pop Up Play website for details on the project. 
 
-NB - The main file to open is the Pop-Up-PlayMax.maxpat, the Pop-Up-Play.maxpat is a file used when building an app as it uses da ifferent path managment system. 
+NB - Open the 'launcher.maxpat' file, this will set a temporary search path and find all the media and subpatches
 
 -------------------------------------
 
