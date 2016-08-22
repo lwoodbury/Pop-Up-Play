@@ -763,7 +763,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
+						"rect" : [ 77.0, 145.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -799,9 +799,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 124.0, 245.0, 22.0 ],
+									"patching_rect" : [ 50.0, 124.0, 249.0, 22.0 ],
 									"style" : "",
-									"text" : "combine filepath media/lightingBackgrounds"
+									"text" : "combine filepath media/lightingBackgrounds/"
 								}
 
 							}
@@ -13363,59 +13363,47 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-163" : [ "toggle[9]", "toggle", 0 ],
-			"obj-45" : [ "umenu[2]", "umenu[9]", 0 ],
-			"obj-143" : [ "umenu[9]", "umenu[9]", 0 ],
+			"obj-69::obj-66" : [ "number[11]", "number", 0 ],
+			"obj-69::obj-19" : [ "umenu", "umenu", 0 ],
+			"obj-136" : [ "live.button[5]", "live.button", 0 ],
+			"obj-69::obj-61" : [ "number[6]", "number[5]", 0 ],
+			"obj-106" : [ "toggle[16]", "toggle", 0 ],
+			"obj-182" : [ "number[4]", "number[4]", 0 ],
+			"obj-69::obj-54" : [ "toggle[17]", "toggle", 0 ],
+			"obj-164" : [ "swatch", "swatch", 0 ],
+			"obj-69::obj-18" : [ "live.button", "live.button", 0 ],
+			"obj-69::obj-41" : [ "live.button[3]", "live.button", 0 ],
+			"obj-135" : [ "live.button[4]", "live.button", 0 ],
+			"obj-24" : [ "toggle[10]", "toggle", 0 ],
+			"obj-69::obj-62" : [ "number[7]", "number[4]", 0 ],
+			"obj-69::obj-51" : [ "toggle[14]", "toggle", 0 ],
+			"obj-183" : [ "number[3]", "number[3]", 0 ],
+			"obj-69::obj-44" : [ "umenu[1]", "umenu[9]", 0 ],
+			"obj-69::obj-46" : [ "toggle[12]", "toggle", 0 ],
+			"obj-69::obj-38" : [ "live.button[2]", "live.button", 0 ],
+			"obj-69::obj-55" : [ "swatch[1]", "swatch", 0 ],
 			"obj-96" : [ "slider[6]", "slider[6]", 0 ],
 			"obj-69::obj-49" : [ "toggle[13]", "toggle", 0 ],
-			"obj-159" : [ "toggle[8]", "toggle", 0 ],
-			"obj-69::obj-38" : [ "live.button[2]", "live.button", 0 ],
-			"obj-186" : [ "number[2]", "number[2]", 0 ],
-			"obj-69::obj-65" : [ "number[10]", "number[1]", 0 ],
-			"obj-138" : [ "live.button[7]", "live.button", 0 ],
-			"obj-155" : [ "toggle[6]", "toggle", 0 ],
-			"obj-24" : [ "toggle[10]", "toggle", 0 ],
-			"obj-69::obj-61" : [ "number[6]", "number[5]", 0 ],
-			"obj-69::obj-19" : [ "umenu", "umenu", 0 ],
-			"obj-187" : [ "number[1]", "number[1]", 0 ],
-			"obj-137" : [ "live.button[6]", "live.button", 0 ],
-			"obj-69::obj-66" : [ "number[11]", "number", 0 ],
-			"obj-164" : [ "swatch", "swatch", 0 ],
-			"obj-181" : [ "number[5]", "number[5]", 0 ],
-			"obj-69::obj-62" : [ "number[7]", "number[4]", 0 ],
-			"obj-106" : [ "toggle[16]", "toggle", 0 ],
-			"obj-69::obj-46" : [ "toggle[12]", "toggle", 0 ],
-			"obj-182" : [ "number[4]", "number[4]", 0 ],
 			"obj-69::obj-63" : [ "number[8]", "number[3]", 0 ],
-			"obj-136" : [ "live.button[5]", "live.button", 0 ],
-			"obj-69::obj-18" : [ "live.button", "live.button", 0 ],
+			"obj-186" : [ "number[2]", "number[2]", 0 ],
 			"obj-157" : [ "toggle[7]", "toggle", 0 ],
-			"obj-69::obj-55" : [ "swatch[1]", "swatch", 0 ],
-			"obj-69::obj-44" : [ "umenu[1]", "umenu[9]", 0 ],
+			"obj-143" : [ "umenu[9]", "umenu[9]", 0 ],
+			"obj-138" : [ "live.button[7]", "live.button", 0 ],
+			"obj-45" : [ "umenu[2]", "umenu[9]", 0 ],
+			"obj-163" : [ "toggle[9]", "toggle", 0 ],
+			"obj-69::obj-64" : [ "number[9]", "number[2]", 0 ],
+			"obj-187" : [ "number[1]", "number[1]", 0 ],
 			"obj-69::obj-35" : [ "live.button[1]", "live.button", 0 ],
-			"obj-69::obj-51" : [ "toggle[14]", "toggle", 0 ],
+			"obj-155" : [ "toggle[6]", "toggle", 0 ],
+			"obj-181" : [ "number[5]", "number[5]", 0 ],
+			"obj-137" : [ "live.button[6]", "live.button", 0 ],
+			"obj-159" : [ "toggle[8]", "toggle", 0 ],
 			"obj-69::obj-11" : [ "toggle[11]", "toggle", 0 ],
 			"obj-188" : [ "number", "number", 0 ],
-			"obj-183" : [ "number[3]", "number[3]", 0 ],
-			"obj-69::obj-41" : [ "live.button[3]", "live.button", 0 ],
-			"obj-69::obj-64" : [ "number[9]", "number[2]", 0 ],
-			"obj-69::obj-54" : [ "toggle[17]", "toggle", 0 ],
-			"obj-135" : [ "live.button[4]", "live.button", 0 ]
+			"obj-69::obj-65" : [ "number[10]", "number[1]", 0 ]
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "PUPlogo.png",
-				"bootpath" : "~/Pop-Up-Play/Media/uiImages",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "link.png",
-				"bootpath" : "~/Pop-Up-Play/Media/uiImages",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 

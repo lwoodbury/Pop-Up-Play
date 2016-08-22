@@ -1152,9 +1152,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 126.0, 237.0, 22.0 ],
+									"patching_rect" : [ 50.0, 126.0, 240.0, 22.0 ],
 									"style" : "",
-									"text" : "combine filepath media/audioBackgrounds"
+									"text" : "combine filepath media/audioBackgrounds/"
 								}
 
 							}
@@ -13393,82 +13393,46 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7::obj-30" : [ "umenu[14]", "umenu[5]", 0 ],
-			"obj-7::obj-80" : [ "umenu[15]", "umenu[4]", 0 ],
-			"obj-23" : [ "umenu[9]", "umenu[4]", 0 ],
-			"obj-9" : [ "slider[5]", "slider[5]", 0 ],
-			"obj-25" : [ "slider[6]", "slider", 0 ],
-			"obj-7::obj-87" : [ "umenu[16]", "umenu[5]", 0 ],
-			"obj-7::obj-9" : [ "slider[9]", "slider[5]", 0 ],
-			"obj-7::obj-113" : [ "umenu[11]", "umenu[7]", 0 ],
-			"obj-7::obj-13" : [ "umenu[12]", "umenu[8]", 0 ],
-			"obj-7::obj-102" : [ "slider[8]", "slider[4]", 0 ],
-			"obj-7::obj-2" : [ "slider[7]", "slider", 0 ],
-			"obj-7::obj-25" : [ "slider[10]", "slider", 0 ],
-			"obj-99" : [ "toggle[5]", "toggle", 0 ],
-			"obj-82" : [ "slider", "slider", 0 ],
-			"obj-7::obj-6" : [ "toggle[19]", "toggle", 0 ],
-			"obj-102" : [ "slider[4]", "slider[4]", 0 ],
-			"obj-33" : [ "toggle[2]", "toggle", 0 ],
-			"obj-6" : [ "toggle[1]", "toggle", 0 ],
-			"obj-80" : [ "umenu[4]", "umenu[4]", 0 ],
-			"obj-12" : [ "slider[3]", "slider", 0 ],
-			"obj-35" : [ "toggle[3]", "toggle", 0 ],
-			"obj-7::obj-58" : [ "toggle[18]", "toggle", 0 ],
-			"obj-113" : [ "umenu[7]", "umenu[7]", 0 ],
+			"obj-89" : [ "umenu[6]", "umenu[6]", 0 ],
 			"obj-59" : [ "toggle[16]", "toggle", 0 ],
 			"obj-7::obj-35" : [ "toggle[20]", "toggle", 0 ],
-			"obj-100" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-7::obj-33" : [ "toggle[21]", "toggle", 0 ],
-			"obj-87" : [ "umenu[5]", "umenu[5]", 0 ],
-			"obj-7::obj-23" : [ "umenu[13]", "umenu[4]", 0 ],
-			"obj-89" : [ "umenu[6]", "umenu[6]", 0 ],
-			"obj-7::obj-100" : [ "slider[12]", "slider[2]", 0 ],
-			"obj-7::obj-82" : [ "slider[11]", "slider", 0 ],
-			"obj-58" : [ "toggle[7]", "toggle", 0 ],
-			"obj-7::obj-89" : [ "umenu[17]", "umenu[6]", 0 ],
-			"obj-13" : [ "umenu[8]", "umenu[8]", 0 ],
 			"obj-7::obj-99" : [ "toggle[17]", "toggle", 0 ],
-			"obj-30" : [ "umenu[10]", "umenu[5]", 0 ]
+			"obj-7::obj-23" : [ "umenu[13]", "umenu[4]", 0 ],
+			"obj-7::obj-25" : [ "slider[10]", "slider", 0 ],
+			"obj-82" : [ "slider", "slider", 0 ],
+			"obj-7::obj-33" : [ "toggle[21]", "toggle", 0 ],
+			"obj-35" : [ "toggle[3]", "toggle", 0 ],
+			"obj-113" : [ "umenu[7]", "umenu[7]", 0 ],
+			"obj-6" : [ "toggle[1]", "toggle", 0 ],
+			"obj-99" : [ "toggle[5]", "toggle", 0 ],
+			"obj-25" : [ "slider[6]", "slider", 0 ],
+			"obj-7::obj-82" : [ "slider[11]", "slider", 0 ],
+			"obj-33" : [ "toggle[2]", "toggle", 0 ],
+			"obj-58" : [ "toggle[7]", "toggle", 0 ],
+			"obj-7::obj-30" : [ "umenu[14]", "umenu[5]", 0 ],
+			"obj-23" : [ "umenu[9]", "umenu[4]", 0 ],
+			"obj-12" : [ "slider[3]", "slider", 0 ],
+			"obj-7::obj-13" : [ "umenu[12]", "umenu[8]", 0 ],
+			"obj-7::obj-80" : [ "umenu[15]", "umenu[4]", 0 ],
+			"obj-87" : [ "umenu[5]", "umenu[5]", 0 ],
+			"obj-7::obj-2" : [ "slider[7]", "slider", 0 ],
+			"obj-80" : [ "umenu[4]", "umenu[4]", 0 ],
+			"obj-7::obj-89" : [ "umenu[17]", "umenu[6]", 0 ],
+			"obj-100" : [ "slider[2]", "slider[2]", 0 ],
+			"obj-7::obj-58" : [ "toggle[18]", "toggle", 0 ],
+			"obj-7::obj-100" : [ "slider[12]", "slider[2]", 0 ],
+			"obj-7::obj-6" : [ "toggle[19]", "toggle", 0 ],
+			"obj-102" : [ "slider[4]", "slider[4]", 0 ],
+			"obj-7::obj-9" : [ "slider[9]", "slider[5]", 0 ],
+			"obj-30" : [ "umenu[10]", "umenu[5]", 0 ],
+			"obj-7::obj-113" : [ "umenu[11]", "umenu[7]", 0 ],
+			"obj-9" : [ "slider[5]", "slider[5]", 0 ],
+			"obj-7::obj-87" : [ "umenu[16]", "umenu[5]", 0 ],
+			"obj-13" : [ "umenu[8]", "umenu[8]", 0 ],
+			"obj-7::obj-102" : [ "slider[8]", "slider[4]", 0 ]
 		}
 ,
-		"dependency_cache" : [ 			{
-				"name" : "power.png",
-				"bootpath" : "~/Pop-Up-Play/Media/uiImages",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "link.png",
-				"bootpath" : "~/Pop-Up-Play/Media/uiImages",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "loop.png",
-				"bootpath" : "~/Pop-Up-Play/Media/uiImages",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PUPlogo.png",
-				"bootpath" : "~/Pop-Up-Play/Media/uiImages",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "speakerBl.png",
-				"bootpath" : "~/Pop-Up-Play/Media/uiImages",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cloud.png",
-				"bootpath" : "~/Pop-Up-Play/Media/uiImages",
-				"type" : "PNG ",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
