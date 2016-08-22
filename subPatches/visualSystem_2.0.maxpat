@@ -331,7 +331,7 @@
 					"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgcolor2" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0,
+					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color1" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
@@ -360,7 +360,7 @@
 					"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgcolor2" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0,
+					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color1" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
@@ -627,7 +627,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 758.0, 116.0, 640.0, 480.0 ],
+						"rect" : [ 552.0, 93.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -896,7 +896,7 @@
 					"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgcolor2" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0,
+					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color1" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
@@ -925,7 +925,7 @@
 					"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgcolor2" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0,
+					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color1" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 					"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
@@ -8214,7 +8214,7 @@
 									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgcolor2" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
-									"bgfillcolor_autogradient" : 0,
+									"bgfillcolor_autogradient" : 0.0,
 									"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_color1" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
@@ -8242,7 +8242,7 @@
 									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgcolor2" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
-									"bgfillcolor_autogradient" : 0,
+									"bgfillcolor_autogradient" : 0.0,
 									"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_color1" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
@@ -8300,7 +8300,7 @@
 									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgcolor2" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
-									"bgfillcolor_autogradient" : 0,
+									"bgfillcolor_autogradient" : 0.0,
 									"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_color1" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
@@ -8328,7 +8328,7 @@
 									"bgcolor" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgcolor2" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
-									"bgfillcolor_autogradient" : 0,
+									"bgfillcolor_autogradient" : 0.0,
 									"bgfillcolor_color" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_color1" : [ 0.07451, 0.533333, 0.807843, 1.0 ],
 									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
@@ -10810,7 +10810,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 265.0, 187.0, 640.0, 480.0 ],
+										"rect" : [ 30.0, 165.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -10939,21 +10939,6 @@
 													"patching_rect" : [ 432.0, 353.0, 94.0, 22.0 ],
 													"style" : "",
 													"text" : "pack scale f f 1."
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-16",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 527.0, 353.0, 53.0, 22.0 ],
-													"style" : "",
-													"text" : "layer $1"
 												}
 
 											}
@@ -11370,9 +11355,10 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-16", 0 ],
+													"destination" : [ "obj-17", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"midpoints" : [ 536.5, 381.0, 48.5, 381.0 ],
 													"source" : [ "obj-143", 0 ]
 												}
 
@@ -11420,16 +11406,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-15", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-17", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"midpoints" : [ 536.5, 381.0, 48.5, 381.0 ],
-													"source" : [ "obj-16", 0 ]
 												}
 
 											}
@@ -26954,37 +26930,37 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
-			"obj-57::obj-81" : [ "flonum", "flonum", 0 ],
-			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ],
-			"obj-63" : [ "toggle[6]", "toggle", 0 ],
-			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
-			"obj-116" : [ "toggle[28]", "toggle", 0 ],
-			"obj-61" : [ "toggle[29]", "toggle", 0 ],
-			"obj-41" : [ "umenu", "umenu", 0 ],
-			"obj-32" : [ "toggle[1]", "toggle", 0 ],
-			"obj-49" : [ "toggle[2]", "toggle", 0 ],
-			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
-			"obj-31" : [ "toggle[3]", "toggle", 0 ],
-			"obj-200::obj-136" : [ "toggle[22]", "toggle[8]", 0 ],
-			"obj-200::obj-132" : [ "toggle[25]", "toggle", 0 ],
-			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ],
 			"obj-200::obj-29" : [ "umenu[7]", "umenu[3]", 0 ],
-			"obj-200::obj-202" : [ "toggle[27]", "toggle", 0 ],
+			"obj-136" : [ "toggle[8]", "toggle[8]", 0 ],
+			"obj-216" : [ "toggle[24]", "toggle", 0 ],
+			"obj-57::obj-81" : [ "flonum", "flonum", 0 ],
+			"obj-61" : [ "toggle[29]", "toggle", 0 ],
+			"obj-116" : [ "toggle[28]", "toggle", 0 ],
+			"obj-132" : [ "toggle[15]", "toggle", 0 ],
+			"obj-63" : [ "toggle[6]", "toggle", 0 ],
+			"obj-49" : [ "toggle[2]", "toggle", 0 ],
+			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ],
 			"obj-106" : [ "toggle[16]", "toggle", 0 ],
-			"obj-210" : [ "toggle[23]", "toggle", 0 ],
-			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ],
-			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
-			"obj-57::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
-			"obj-57::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-31" : [ "toggle[3]", "toggle", 0 ],
+			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
+			"obj-20" : [ "slider[3]", "slider[2]", 0 ],
+			"obj-200::obj-202" : [ "toggle[27]", "toggle", 0 ],
+			"obj-200::obj-136" : [ "toggle[22]", "toggle[8]", 0 ],
+			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ],
+			"obj-200::obj-49" : [ "toggle[26]", "toggle", 0 ],
 			"obj-202" : [ "toggle[12]", "toggle", 0 ],
 			"obj-86" : [ "toggle[4]", "toggle", 0 ],
-			"obj-200::obj-7" : [ "umenu[6]", "umenu[2]", 0 ],
-			"obj-216" : [ "toggle[24]", "toggle", 0 ],
+			"obj-200::obj-63" : [ "toggle[21]", "toggle", 0 ],
+			"obj-57::obj-62" : [ "flonum[2]", "flonum[2]", 0 ],
+			"obj-200::obj-132" : [ "toggle[25]", "toggle", 0 ],
+			"obj-57::obj-23" : [ "flonum[1]", "flonum[1]", 0 ],
+			"obj-82" : [ "umenu[5]", "umenu[2]", 0 ],
+			"obj-32" : [ "toggle[1]", "toggle", 0 ],
+			"obj-41" : [ "umenu", "umenu", 0 ],
+			"obj-210" : [ "toggle[23]", "toggle", 0 ],
 			"obj-17" : [ "slider[11]", "slider[2]", 0 ],
-			"obj-132" : [ "toggle[15]", "toggle", 0 ],
-			"obj-200::obj-82" : [ "umenu[8]", "umenu[2]", 0 ],
-			"obj-39" : [ "umenu[1]", "umenu[1]", 0 ]
+			"obj-7" : [ "umenu[2]", "umenu[2]", 0 ],
+			"obj-29" : [ "umenu[3]", "umenu[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
