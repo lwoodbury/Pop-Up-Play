@@ -1,1 +1,1 @@
-"support\dpkinectRegister\dpkinectRegister.exe"
+"support\dp.kinectV1Register.exe"
